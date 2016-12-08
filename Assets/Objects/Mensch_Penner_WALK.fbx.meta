@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3142777fcf806ed43a25b68b36b42907
-timeCreated: 1481206817
+timeCreated: 1481208886
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -21,21 +21,19 @@ ModelImporter:
     100026: //RootNode
     100028: Neck
     100030: Penner_01
-    100032: RightArm
-    100034: RightFoot
-    100036: RightForeArm
-    100038: RightHand
-    100040: RightHand_end
-    100042: RightLeg
-    100044: RightShoulder
-    100046: RightToeBase
-    100048: RightToeBase_end
-    100050: RightUpLeg
-    100052: Spine
-    100054: Spine1
-    100056: Sun
-    100058: Sun.001
-    100060: wiekhorst_elfmeter
+    100032: Penner_Armatur
+    100034: RightArm
+    100036: RightFoot
+    100038: RightForeArm
+    100040: RightHand
+    100042: RightHand_end
+    100044: RightLeg
+    100046: RightShoulder
+    100048: RightToeBase
+    100050: RightToeBase_end
+    100052: RightUpLeg
+    100054: Spine
+    100056: Spine1
     400000: Head
     400002: Head_end
     400004: Hips
@@ -52,25 +50,23 @@ ModelImporter:
     400026: //RootNode
     400028: Neck
     400030: Penner_01
-    400032: RightArm
-    400034: RightFoot
-    400036: RightForeArm
-    400038: RightHand
-    400040: RightHand_end
-    400042: RightLeg
-    400044: RightShoulder
-    400046: RightToeBase
-    400048: RightToeBase_end
-    400050: RightUpLeg
-    400052: Spine
-    400054: Spine1
-    400056: Sun
-    400058: Sun.001
-    400060: wiekhorst_elfmeter
+    400032: Penner_Armatur
+    400034: RightArm
+    400036: RightFoot
+    400038: RightForeArm
+    400040: RightHand
+    400042: RightHand_end
+    400044: RightLeg
+    400046: RightShoulder
+    400048: RightToeBase
+    400050: RightToeBase_end
+    400052: RightUpLeg
+    400054: Spine
+    400056: Spine1
     4300000: Penner_01
-    7400000: wiekhorst_elfmeter|wiekhorst_elfmeter
-    7400002: wiekhorst_elfmeter|wiekhorst_elfmeterAction
-    7400004: wiekhorst_elfmeter|wiekhorst_sprung
+    7400000: Penner_Armatur|wiekhorst_elfmeter
+    7400002: Penner_Armatur|wiekhorst_elfmeterAction
+    7400004: Penner_Armatur|wiekhorst_sprung
     9500000: //RootNode
     13700000: Penner_01
   materials:
@@ -81,7 +77,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -93,12 +89,98 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Penner_Armatur|wiekhorst_elfmeterAction
+      takeName: Penner_Armatur|wiekhorst_elfmeterAction
+      firstFrame: 0
+      lastFrame: 176
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Penner_Armatur
+        weight: 1
+      - path: Penner_Armatur/Hips
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/Neck/Head/Head_end
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_end
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Penner_Armatur/Hips/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_end
+        weight: 1
+      - path: Penner_Armatur/Hips/LeftUpLeg
+        weight: 1
+      - path: Penner_Armatur/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Penner_Armatur/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Penner_Armatur/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Penner_Armatur/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToeBase_end
+        weight: 1
+      - path: Penner_Armatur/Hips/RightUpLeg
+        weight: 1
+      - path: Penner_Armatur/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Penner_Armatur/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Penner_Armatur/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Penner_Armatur/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToeBase_end
+        weight: 1
+      - path: Penner_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
-    meshCompression: 0
+    globalScale: 0.25
+    meshCompression: 1
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
@@ -113,8 +195,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
@@ -128,7 +210,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Penner_Armatur
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
