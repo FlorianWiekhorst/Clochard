@@ -7,6 +7,7 @@ public class Inventory : MonoBehaviour {
 	public int[] items = new int[10];
 	public GameObject inventory;
 	private bool isShowing = false;
+	public GameObject reticle;
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,10 +20,15 @@ public class Inventory : MonoBehaviour {
 	void showInventory(){
 		if (isShowing) {
 			inventory.GetComponent<CanvasGroup> ().alpha = 0f;
+			reticle.GetComponent<CanvasGroup> ().alpha = 1f;
 			isShowing = false;
+			Time.timeScale = 1f;
+
 		} else {
 			inventory.GetComponent<CanvasGroup> ().alpha = 1f;
+			reticle.GetComponent<CanvasGroup> ().alpha = 0f;
 			isShowing = true;
+			Time.timeScale = 0f;
 		}
 	
 	}
