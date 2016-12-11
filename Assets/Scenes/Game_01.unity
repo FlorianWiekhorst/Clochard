@@ -2322,6 +2322,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6e904db8d3c387e4ba14d0158d274e64, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e904db8d3c387e4ba14d0158d274e64, type: 3}
   m_IsPrefabParent: 0
