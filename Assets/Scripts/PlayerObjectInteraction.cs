@@ -4,8 +4,8 @@ using System.Collections;
 public class PlayerObjectInteraction : MonoBehaviour {
 
 
-	private Camera fpsCam;                                              // Holds a reference to the first person camera
-	private LineRenderer laserLine;                                     // Reference to the LineRenderer component which will display our laserline
+	private Camera fpsCam;                                              
+	private LineRenderer laserLine;                                     
 	private Vector3 rayOrigin;
 	private RaycastHit hit;
 	public bool isItem;
