@@ -10,6 +10,9 @@ public class PlayerObjectInteraction : MonoBehaviour {
 	private RaycastHit hit;
 	public bool isItem;
 	public GameObject interactText;
+	public float distanceToSee;
+	public Inventory inventory;
+
 
 	void Start () {
 		fpsCam = GetComponent<Camera>();
@@ -18,16 +21,20 @@ public class PlayerObjectInteraction : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Physics.Raycast (rayOrigin, fpsCam.transform.forward, out hit, 30.0f))
+		Debug.DrawRay (this.transform.position,fpsCam.transform.forward * distanceToSee,Color.green);
+		if (Physics.Raycast (this.transform.position, fpsCam.transform.forward, out hit,distanceToSee))
 		{
-			Debug.DrawRay (fpsCam.transform.position,fpsCam.transform.forward,Color.green);
+			
+			Debug.Log ("I hit " + hit.collider.gameObject);
 			if (hit.transform.CompareTag("Item")) {
 				interactText.SetActive (true);
 				isItem = true;
 				if (Input.GetKeyDown ("e")) {
 					Destroy (hit.transform.gameObject);
+					interactText.SetActive (false);
+					isItem = false;
 				}
-				print ("Works" + fpsCam.transform.position);
+				//print ("Works" + fpsCam.transform.position);
 			} else {
 				interactText.SetActive (false);
 				isItem = false;

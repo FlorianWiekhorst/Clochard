@@ -176,6 +176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isItem: 0
   interactText: {fileID: 1304492049}
+  distanceToSee: 3
+  inventory: {fileID: 0}
 --- !u!1 &239486570
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +747,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10b2b1bab1dc6374b990bca7be2169ab, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 10b2b1bab1dc6374b990bca7be2169ab, type: 3}
       propertyPath: m_ReceiveShadows
@@ -2562,7 +2564,12 @@ Prefab:
     - target: {fileID: 20000010234769556, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: m_RenderingPath
-      value: 1
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010234769556, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+        type: 2}
+      propertyPath: orthographic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
