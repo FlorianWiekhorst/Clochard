@@ -22,5 +22,9 @@ public class Inventory : MonoBehaviour {
 	
 	}
 
+	public void addItem(){
+		
+	}
+
 
 }
