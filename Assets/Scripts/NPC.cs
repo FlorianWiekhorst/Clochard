@@ -4,20 +4,20 @@ using UnityEngine;
 using System.Collections;
 using System;
 
-[RequireComponent (typeof (NavMeshAgent))]
+[RequireComponent (typeof (UnityEngine.AI.NavMeshAgent))]
 public class NPC : MonoBehaviour{ 
 
     //public Transform npcPos;
 	//public Transform goal;
 	//Random rnd = new Random();
-	NavMeshAgent agent;
+	UnityEngine.AI.NavMeshAgent agent;
 
 	public Transform target;
 
 	void start()
 	{
 
-		agent = GetComponent<NavMeshAgent>();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 	    //Move();
 		agent.destination = target.position;
 	}
