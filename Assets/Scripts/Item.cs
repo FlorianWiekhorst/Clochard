@@ -1,17 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Item : MonoBehaviour {
+[CreateAssetMenu]
+public class Item : ScriptableObject {
 
 	
+	public Sprite sprite;
 
 
-	void Start () {
-	
-	}
-	
-
-	void Update () {
-	
-	}
 }

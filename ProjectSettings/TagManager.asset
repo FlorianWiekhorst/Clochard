@@ -8,6 +8,7 @@ TagManager:
   - Item
   - startbtn
   - quitbtn
+  - Door
   layers:
   - Default
   - TransparentFX

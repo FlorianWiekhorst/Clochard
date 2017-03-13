@@ -13,6 +13,7 @@ public class PlayerObjectInteraction : MonoBehaviour {
 	public Inventory inventory;
 
 
+
 	void Start () {
 		fpsCam = GetComponent<Camera>();
 		rayOrigin = fpsCam.ViewportToWorldPoint (new Vector3(0.5f,0.5f,0.0f));
@@ -39,7 +40,10 @@ public class PlayerObjectInteraction : MonoBehaviour {
 				interactText.SetActive (false);
 				isItem = false;
 			}
-		} else {
+		} else if(hit.transform.CompareTag("Door")){
+			hit.transform.gameObject.SendMessage ("Teleport");
+		} 
+		else {
 			interactText.SetActive (false);
 			isItem = false;
 		}
