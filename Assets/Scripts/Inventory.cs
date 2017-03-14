@@ -6,8 +6,10 @@ public class Inventory : MonoBehaviour {
 
 	public GameObject inventory;
 	public GameObject reticle;
+	public InvDragHandler dragHandler;
 	public Image[] itemImages = new Image[numItemSlots];
 	public Item[] items = new Item[numItemSlots];
+	public GameObject[] itemPrefabs = new GameObject[numItemSlots];
 	public const int numItemSlots = 10;
 	CursorLockMode wantedMode;
 
@@ -34,12 +36,20 @@ public class Inventory : MonoBehaviour {
 	}
 
 	public void AddItem(Item itemToAdd){
-
+		
 		for (int i = 0; i < items.Length; i++)
 		{
 			if (items[i] == null)
 			{
+				dragHandler = itemImages [i].GetComponent<InvDragHandler> ();
+
+
 				items[i] = itemToAdd;
+				itemPrefabs [i] = itemToAdd.prefab;
+
+				dragHandler.gameObj = itemToAdd.prefab;
+				dragHandler.item = itemToAdd;
+
 				itemImages[i].sprite = itemToAdd.sprite;
 				itemImages[i].enabled = true;
 				return;

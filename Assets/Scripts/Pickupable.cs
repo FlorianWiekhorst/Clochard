@@ -10,9 +10,12 @@ public class Pickupable : MonoBehaviour {
 	private Inventory inventory;    // Reference to the Inventory component.
 
 
+
+
 	void Start()
 	{
 		inventory = FindObjectOfType<Inventory>();
+
 	}
 
 

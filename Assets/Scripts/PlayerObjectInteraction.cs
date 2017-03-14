@@ -33,7 +33,7 @@ public class PlayerObjectInteraction : MonoBehaviour {
 
 	void itemInteraction(){
 
-		Debug.Log ("I hit " + hit.collider.gameObject);
+		//Debug.Log ("I hit " + hit.collider.gameObject);
 		if (hit.transform.CompareTag("Item")) {
 			interactText.SetActive (true);
 			isItem = true;

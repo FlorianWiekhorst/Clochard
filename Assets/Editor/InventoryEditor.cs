@@ -6,12 +6,15 @@ public class InventoryEditor : Editor
 	private bool[] showItemSlots = new bool[Inventory.numItemSlots];
 	private SerializedProperty itemImagesProperty;
 	private SerializedProperty itemsProperty;
+	private SerializedProperty itemPrefabsProperty;
 	private const string inventoryPropItemImagesName = "itemImages";
 	private const string inventoryPropItemsName = "items";
+	private const string inventoryPropItemPrefabsName = "itemPrefabs";
 	private void OnEnable ()
 	{
 		itemImagesProperty = serializedObject.FindProperty (inventoryPropItemImagesName);
 		itemsProperty = serializedObject.FindProperty (inventoryPropItemsName);
+		itemPrefabsProperty = serializedObject.FindProperty (inventoryPropItemPrefabsName);
 	}
 	public override void OnInspectorGUI ()
 	{
@@ -32,6 +35,7 @@ public class InventoryEditor : Editor
 		{
 			EditorGUILayout.PropertyField (itemImagesProperty.GetArrayElementAtIndex (index));
 			EditorGUILayout.PropertyField (itemsProperty.GetArrayElementAtIndex (index));
+			EditorGUILayout.PropertyField (itemPrefabsProperty.GetArrayElementAtIndex(index));
 		}
 		EditorGUI.indentLevel--;
 		EditorGUILayout.EndVertical ();
