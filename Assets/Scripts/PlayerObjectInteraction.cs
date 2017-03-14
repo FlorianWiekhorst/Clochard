@@ -41,7 +41,11 @@ public class PlayerObjectInteraction : MonoBehaviour {
 				isItem = false;
 			}
 		} else if(hit.transform.CompareTag("Door")){
-			hit.transform.gameObject.SendMessage ("Teleport");
+			interactText.SetActive (true);
+			if(Input.GetKeyDown("e")){
+				hit.transform.gameObject.SendMessage ("Teleport");
+				interactText.SetActive (false);
+			}
 		} 
 		else {
 			interactText.SetActive (false);
