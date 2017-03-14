@@ -1,29 +1,63 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Inventory : MonoBehaviour {
 
-	public int space = 10;
-	public int[] items = new int[10];
 	public GameObject inventory;
 	public GameObject reticle;
+	public Image[] itemImages = new Image[numItemSlots];
+	public Item[] items = new Item[numItemSlots];
+	public const int numItemSlots = 10;
+	CursorLockMode wantedMode;
 
-	public void showInventory(){
-		inventory.GetComponent<CanvasGroup> ().alpha = 0f;
-		reticle.GetComponent<CanvasGroup> ().alpha = 1f;
-		Time.timeScale = 1f;
-	
+	void Awake(){
+		inventory = GameObject.Find ("Inventory");
+		reticle = GameObject.Find ("Reticle");
 	}
 
-	public void hideInventory(){
+	public void showInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 1f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 0f;
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
 		Time.timeScale = 0f;
 	
 	}
 
-	public void addItem(){
-		
+	public void hideInventory(){
+		inventory.GetComponent<CanvasGroup> ().alpha = 0f;
+		reticle.GetComponent<CanvasGroup> ().alpha = 1f;
+		Cursor.visible = false;
+		Cursor.lockState = wantedMode = CursorLockMode.Locked;
+		Time.timeScale = 1f;
+	}
+
+	public void AddItem(Item itemToAdd){
+
+		for (int i = 0; i < items.Length; i++)
+		{
+			if (items[i] == null)
+			{
+				items[i] = itemToAdd;
+				itemImages[i].sprite = itemToAdd.sprite;
+				itemImages[i].enabled = true;
+				return;
+			}
+		}
+	}
+	public void RemoveItem (Item itemToRemove)
+	{
+		for (int i = 0; i < items.Length; i++)
+		{
+			if (items[i] == itemToRemove)
+			{
+				items[i] = null;
+				itemImages[i].sprite = null;
+				itemImages[i].enabled = false;
+				return;
+			}
+		}
 	}
 
 

@@ -15,6 +15,8 @@ public class PlayerObjectInteraction : MonoBehaviour {
 
 
 	void Start () {
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 		fpsCam = GetComponent<Camera>();
 		rayOrigin = fpsCam.ViewportToWorldPoint (new Vector3(0.5f,0.5f,0.0f));
 	}
@@ -37,6 +39,7 @@ public class PlayerObjectInteraction : MonoBehaviour {
 			isItem = true;
 			if (Input.GetKeyDown ("e")) {
 				Destroy (hit.transform.gameObject);
+				hit.transform.gameObject.SendMessage ("ImmediateReaction");
 				interactText.SetActive (false);
 				isItem = false;
 			}

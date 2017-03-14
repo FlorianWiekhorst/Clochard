@@ -3,14 +3,10 @@ using System.Collections;
 
 public class UIHandler : MonoBehaviour {
 
-	public bool isActive;
+	bool isActive = false;
 	public Inventory inventory;
 	public ESCMenu menu;
 	public GameObject reticle;
-
-	void Start(){
-		isActive = false;
-	}
 
 	// Update is called once per frame
 	void Update () {
