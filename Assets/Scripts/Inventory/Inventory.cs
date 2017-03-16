@@ -45,14 +45,14 @@ public class Inventory : MonoBehaviour {
 		{
 			if (items[i] == null)
 			{
-				dragHandler = itemImages [i].GetComponent<InvDragHandler> ();
+				//dragHandler = itemImages [i].GetComponent<InvDragHandler> ();
 
 
 				items[i] = itemToAdd;
 				itemPrefabs [i] = itemToAdd.prefab;
 
-				dragHandler.gameObj = itemToAdd.prefab;
-				dragHandler.item = itemToAdd;
+				//dragHandler.gameObj = itemToAdd.prefab;
+				//dragHandler.item = itemToAdd;
 
 				itemImages[i].sprite = itemToAdd.sprite;
 				itemImages[i].enabled = true;
