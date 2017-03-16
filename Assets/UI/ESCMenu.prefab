@@ -16,11 +16,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000010726495066}
-  - 222: {fileID: 222000010852779336}
-  - 114: {fileID: 114000010316688068}
+  - component: {fileID: 224000010726495066}
+  - component: {fileID: 222000010852779336}
+  - component: {fileID: 114000010316688068}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -33,14 +33,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000012746284100}
-  - 223: {fileID: 223000010371082898}
-  - 114: {fileID: 114000011701209870}
-  - 114: {fileID: 114000011075529674}
-  - 225: {fileID: 225000010337027224}
-  - 114: {fileID: 114000010820954700}
+  - component: {fileID: 224000012746284100}
+  - component: {fileID: 223000010371082898}
+  - component: {fileID: 114000011701209870}
+  - component: {fileID: 114000011075529674}
+  - component: {fileID: 225000010337027224}
+  - component: {fileID: 114000010820954700}
   m_Layer: 5
   m_Name: ESCMenu
   m_TagString: Untagged
@@ -159,10 +159,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 224000012746284100}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -177,11 +177,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224000010726495066}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
