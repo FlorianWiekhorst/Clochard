@@ -8,31 +8,48 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEndDragHandler  {
 	
-//  public GameObject gameObj;
-//	public Item item;
-//	EventTrigger trigger;
-//	public GameObject objBeingDragged;
-//	public RectTransform rectTransform;
+ 
+	public Item item;
+
+	public GameObject gameObj;
+
 	Vector2 startPosition;
 	RectTransform startTransform;
 	GameObject inventoryObj;
 	Inventory inventory;
 
+	Transform cachedParent;
+
+	SlotHandler slotHandler;
+
+	GameObject slots;
+
 	void Awake(){
+		
+		slots = GameObject.Find ("Slots");
+		slotHandler = slots.GetComponent<SlotHandler> ();
 		inventoryObj = GameObject.Find ("Inventory");
 		inventory = inventoryObj.GetComponent<Inventory> ();
 	}
 
 
 	public void OnBeginDrag(PointerEventData eventData){
+		//For later reset purposes
+		cachedParent = this.transform.parent;
+	
+		//Setting the new Parent
+		this.transform.SetParent (inventoryObj.transform);
 		startTransform = transform as RectTransform;
+		this.transform.SetAsLastSibling ();
 		startPosition = startTransform.position;
 		Debug.Log ("Start Drag");
+
 	}
 
 
 	public void OnDrag (PointerEventData eventData)
 	{
+		
 		Debug.Log (startPosition);
 		this.transform.position = eventData.position;
 
@@ -42,6 +59,12 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 
 	public void OnEndDrag(PointerEventData eventData){
 		Debug.Log ("End Drag");
+		if (!inventory.pointerIsOver) {
+			inventory.RemoveItem (item);
+		}
+
+		this.transform.SetParent (cachedParent.transform);
+		this.transform.position = startPosition;
 	}
 
 }

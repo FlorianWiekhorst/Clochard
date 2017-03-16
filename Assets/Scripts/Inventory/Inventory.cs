@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
-public class Inventory : MonoBehaviour {
+public class Inventory : MonoBehaviour, IPointerExitHandler,IPointerEnterHandler {
 
 	public GameObject inventory;
 	public GameObject reticle;
@@ -12,8 +13,12 @@ public class Inventory : MonoBehaviour {
 	public GameObject[] itemPrefabs = new GameObject[numItemSlots];
 	public const int numItemSlots = 10;
 	CursorLockMode wantedMode;
+	public bool pointerIsOver;
+
+
 
 	void Awake(){
+		pointerIsOver = true;
 		inventory = GameObject.Find ("Inventory");
 		reticle = GameObject.Find ("Reticle");
 	}
@@ -45,14 +50,14 @@ public class Inventory : MonoBehaviour {
 		{
 			if (items[i] == null)
 			{
-				//dragHandler = itemImages [i].GetComponent<InvDragHandler> ();
+				dragHandler = itemImages [i].GetComponent<InvDragHandler> ();
 
 
 				items[i] = itemToAdd;
 				itemPrefabs [i] = itemToAdd.prefab;
 
-				//dragHandler.gameObj = itemToAdd.prefab;
-				//dragHandler.item = itemToAdd;
+				dragHandler.gameObj = itemToAdd.prefab;
+				dragHandler.item = itemToAdd;
 
 				itemImages[i].sprite = itemToAdd.sprite;
 				itemImages[i].enabled = true;
@@ -74,5 +79,18 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
+
+	public void OnPointerEnter (PointerEventData eventData)
+	{
+		pointerIsOver = true;
+		//throw new System.NotImplementedException ();
+	}
+
+
+	public void OnPointerExit (PointerEventData eventData)
+	{
+		pointerIsOver = false;
+		//throw new System.NotImplementedException ();
+	}
 
 }
