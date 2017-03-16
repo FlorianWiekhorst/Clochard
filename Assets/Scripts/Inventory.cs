@@ -21,6 +21,8 @@ public class Inventory : MonoBehaviour {
 	public void showInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 1f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 0f;
+//		reticle.SetActive(false);
+//		inventory.SetActive(true);
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
 		Time.timeScale = 0f;
@@ -30,6 +32,8 @@ public class Inventory : MonoBehaviour {
 	public void hideInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 0f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 1f;
+//		reticle.SetActive(true);
+//		inventory.SetActive(false);
 		Cursor.visible = false;
 		Cursor.lockState = wantedMode = CursorLockMode.Locked;
 		Time.timeScale = 1f;
