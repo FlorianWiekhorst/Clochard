@@ -11,23 +11,24 @@ public class Inventory : MonoBehaviour {
 	public Image[] itemImages = new Image[numItemSlots];
 	public Item[] items = new Item[numItemSlots];
 	public GameObject[] itemPrefabs = new GameObject[numItemSlots];
-	public const int numItemSlots = 10;
+	public const int numItemSlots = 15;
 	CursorLockMode wantedMode;
-	public bool pointerIsOver;
 
+	GameObject invBG;
 
 
 	void Awake(){
-		pointerIsOver = true;
+
 		inventory = GameObject.Find ("Inventory");
 		reticle = GameObject.Find ("Reticle");
+		invBG = GameObject.Find ("Inventory_background");
 	}
 
 	public void showInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 1f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 0f;
 //		reticle.SetActive(false);
-//		inventory.SetActive(true);
+		invBG.GetComponent<CanvasGroup>().alpha = 1f;
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
 		Time.timeScale = 0f;
@@ -38,7 +39,7 @@ public class Inventory : MonoBehaviour {
 		inventory.GetComponent<CanvasGroup> ().alpha = 0f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 1f;
 //		reticle.SetActive(true);
-//		inventory.SetActive(false);
+		invBG.GetComponent<CanvasGroup>().alpha = 0f;
 		Cursor.visible = false;
 		Cursor.lockState = wantedMode = CursorLockMode.Locked;
 		Time.timeScale = 1f;
@@ -78,19 +79,5 @@ public class Inventory : MonoBehaviour {
 			}
 		}
 	}
-//
-//
-//	public void OnPointerEnter (PointerEventData eventData)
-//	{
-//		pointerIsOver = true;
-//		//throw new System.NotImplementedException ();
-//	}
-//
-//
-//	public void OnPointerExit (PointerEventData eventData)
-//	{
-//		pointerIsOver = false;
-//		//throw new System.NotImplementedException ();
-//	}
 
 }

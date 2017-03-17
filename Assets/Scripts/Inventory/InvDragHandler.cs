@@ -60,9 +60,9 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 
 	public void OnEndDrag(PointerEventData eventData){
 		Debug.Log ("End Drag");
-		if (Mathf.Abs(eventData.position.x) > invRect.rect.width || Mathf.Abs(eventData.position.y) > invRect.rect.height) {
-			inventory.RemoveItem (item);
-		}
+//		if (!slotHandler.pointerIsOver) {
+//			inventory.RemoveItem (item);
+//		}
 
 		this.transform.SetParent (cachedParent.transform);
 		this.transform.position = startPosition;
