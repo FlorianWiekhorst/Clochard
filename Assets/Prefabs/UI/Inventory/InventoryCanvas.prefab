@@ -286,7 +286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1436910166972294
 GameObject:
   m_ObjectHideFlags: 1
@@ -574,6 +574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224773401204188944}
+  - component: {fileID: 114627935290557666}
   m_Layer: 5
   m_Name: Tooltip
   m_TagString: Untagged
@@ -1150,6 +1151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114196343573316962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1162,6 +1164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114207096944385970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1201,6 +1204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114219860307318162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1267,6 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114267136542021024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1346,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114301040584672302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1501,6 +1507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114347422522810884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1594,6 +1601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114389882366942110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1682,6 +1690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114465745547029116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1694,6 +1703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114472700934925706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1793,6 +1803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114553618893472404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1899,6 +1910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114610780822359516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1911,6 +1923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114627102797087896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1924,6 +1937,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 0}
   gameObj: {fileID: 0}
+--- !u!114 &114627935290557666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855518795085016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5bcc15a8757af849a5e7d3073b46496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0}
+  isShown: 0
+  toolTipObj: {fileID: 1427018759426414}
 --- !u!114 &114631315293117424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2017,6 +2044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114690435060201472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2043,7 +2071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13235295, g: 0.13235295, b: 0.13235295, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2283,6 +2311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114819560251870956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2362,6 +2391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerIsOver: 0
+  toolTipBG: {fileID: 1427018759426414}
 --- !u!114 &114854811597033912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3521,7 +3551,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1241089256770638}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
