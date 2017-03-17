@@ -9,14 +9,32 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	public bool pointerIsOver;
 	Outline outline; 
 	Color cacheColor;
+	Tooltip tooltip;
+	GameObject toolTipObj;
+	public GameObject toolTipBG;
 
-	void Awake(){
+	void Start(){
+		toolTipObj = GameObject.Find ("Tooltip");
+		tooltip = toolTipObj.GetComponent<Tooltip> ();
 		outline = this.gameObject.GetComponent<Outline> ();
 	}
+
+	void Update(){
+		if(Input.GetMouseButtonDown(1) && pointerIsOver && !toolTipBG.activeSelf){
+			tooltip.ToggleToolTip (true);
+		}
+		else if(Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)){
+			if(toolTipBG.activeSelf){
+				tooltip.ToggleToolTip (false);
+			}
+		}
+	}
+
 
 	#region IPointerEnterHandler implementation
 	public void OnPointerEnter (PointerEventData eventData)
 	{
+		pointerIsOver = true;
 		cacheColor = outline.effectColor;
 		outline.effectColor = Color.white;
 		//throw new System.NotImplementedException ();
@@ -27,8 +45,9 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 
 	public void OnPointerExit (PointerEventData eventData)
 	{
+		pointerIsOver = false;
 		outline.effectColor = cacheColor;
-		throw new System.NotImplementedException ();
+		//throw new System.NotImplementedException ();
 	}
 
 	#endregion
@@ -37,7 +56,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 
 	public void OnPointerClick (PointerEventData eventData)
 	{
-		throw new System.NotImplementedException ();
+		
 	}
 
 	#endregion
