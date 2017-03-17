@@ -17,6 +17,7 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 	RectTransform startTransform;
 	GameObject inventoryObj;
 	Inventory inventory;
+	RectTransform invRect;
 
 	Transform cachedParent;
 
@@ -25,11 +26,11 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 	GameObject slots;
 
 	void Awake(){
-		
-		slots = GameObject.Find ("Slots");
-		slotHandler = slots.GetComponent<SlotHandler> ();
 		inventoryObj = GameObject.Find ("Inventory");
 		inventory = inventoryObj.GetComponent<Inventory> ();
+		slots = GameObject.Find ("Slots");
+		slotHandler = inventoryObj.GetComponent<SlotHandler> ();
+		invRect = inventoryObj.GetComponent<RectTransform> ();
 	}
 
 
@@ -59,12 +60,13 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 
 	public void OnEndDrag(PointerEventData eventData){
 		Debug.Log ("End Drag");
-		if (!inventory.pointerIsOver) {
+		if (Mathf.Abs(eventData.position.x) > invRect.rect.width || Mathf.Abs(eventData.position.y) > invRect.rect.height) {
 			inventory.RemoveItem (item);
 		}
 
 		this.transform.SetParent (cachedParent.transform);
 		this.transform.position = startPosition;
 	}
+
 
 }

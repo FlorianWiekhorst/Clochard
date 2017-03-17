@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
 
-public class Inventory : MonoBehaviour, IPointerExitHandler,IPointerEnterHandler {
+public class Inventory : MonoBehaviour {
 
 	public GameObject inventory;
 	public GameObject reticle;
@@ -78,19 +78,19 @@ public class Inventory : MonoBehaviour, IPointerExitHandler,IPointerEnterHandler
 			}
 		}
 	}
-
-
-	public void OnPointerEnter (PointerEventData eventData)
-	{
-		pointerIsOver = true;
-		//throw new System.NotImplementedException ();
-	}
-
-
-	public void OnPointerExit (PointerEventData eventData)
-	{
-		pointerIsOver = false;
-		//throw new System.NotImplementedException ();
-	}
+//
+//
+//	public void OnPointerEnter (PointerEventData eventData)
+//	{
+//		pointerIsOver = true;
+//		//throw new System.NotImplementedException ();
+//	}
+//
+//
+//	public void OnPointerExit (PointerEventData eventData)
+//	{
+//		pointerIsOver = false;
+//		//throw new System.NotImplementedException ();
+//	}
 
 }
