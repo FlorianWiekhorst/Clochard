@@ -1,15 +1,21 @@
 fileFormatVersion: 2
-guid: 2cf85aad1e4479544949b05aec021a2c
-timeCreated: 1489695192
+guid: 441eb13998a68ac4182a07adc0d8b738
+timeCreated: 1489675269
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Gabelstapler
+    100000: Camera
+    100002: Cube
+    100004: Lamp
+    100006: //RootNode
+    400000: Camera
+    400002: Cube
+    400004: Lamp
+    400006: //RootNode
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
   materials:
     importMaterials: 1
     materialName: 0
