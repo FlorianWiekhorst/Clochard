@@ -16,7 +16,6 @@ public class Tooltip : MonoBehaviour {
 	}
 
 	public void ToggleToolTip(bool enabled){
-	
 		if (enabled) {
 			toolTipObj.SetActive (true);
 		}

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,IPointerClickHandler {
+public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
 
 	public bool pointerIsOver;
 	Outline outline; 
@@ -21,12 +21,15 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 
 	void Update(){
 		if(Input.GetMouseButtonDown(1) && pointerIsOver && !toolTipBG.activeSelf){
-			tooltip.ToggleToolTip (true);
+			Debug.Log ("Mouse clicked");
+			tooltip.SendMessage ("ToggleToolTip",true);
 		}
-		else if(Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)){
-			if(toolTipBG.activeSelf){
-				tooltip.ToggleToolTip (false);
+		else if(Input.GetMouseButtonDown(0)){
+			if (toolTipBG.activeSelf) {
+				Debug.Log ("Disabled");
+				tooltip.SendMessage ("ToggleToolTip",false);
 			}
+		
 		}
 	}
 
@@ -37,7 +40,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 		pointerIsOver = true;
 		cacheColor = outline.effectColor;
 		outline.effectColor = Color.white;
-		//throw new System.NotImplementedException ();
+	
 	}
 	#endregion
 
@@ -47,17 +50,10 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	{
 		pointerIsOver = false;
 		outline.effectColor = cacheColor;
-		//throw new System.NotImplementedException ();
+
 	}
 
 	#endregion
 
-	#region IPointerClickHandler implementation
 
-	public void OnPointerClick (PointerEventData eventData)
-	{
-		
-	}
-
-	#endregion
 }
