@@ -12,21 +12,27 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	Tooltip tooltip;
 	GameObject toolTipObj;
 	public GameObject toolTipBG;
+	public bool isOverToolTip;
+	public GameObject slotActive;
+
 
 	void Start(){
+		slotActive = null;
+		isOverToolTip = false;
 		toolTipObj = GameObject.Find ("Tooltip");
 		tooltip = toolTipObj.GetComponent<Tooltip> ();
 		outline = this.gameObject.GetComponent<Outline> ();
 	}
 
 	void Update(){
-		if(Input.GetMouseButtonDown(1) && pointerIsOver && !toolTipBG.activeSelf){
-			Debug.Log ("Mouse clicked");
+		if(Input.GetMouseButtonDown(1) && pointerIsOver){
+			//Debug.Log ("Mouse clicked");
 			tooltip.SendMessage ("ToggleToolTip",true);
+			slotActive = this.gameObject;
 		}
-		else if(Input.GetMouseButtonDown(0)){
+		else if(Input.GetMouseButtonDown(0) && !isOverToolTip){
 			if (toolTipBG.activeSelf) {
-				Debug.Log ("Disabled");
+				//Debug.Log ("Disabled");
 				tooltip.SendMessage ("ToggleToolTip",false);
 			}
 		

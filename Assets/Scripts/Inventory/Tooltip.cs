@@ -9,6 +9,7 @@ public class Tooltip : MonoBehaviour {
 	public Vector2 offset;
 	public bool isShown;
 	public GameObject toolTipObj;
+	private Vector3 toolTipPos; 
 
 
 	private void Start(){
@@ -18,6 +19,7 @@ public class Tooltip : MonoBehaviour {
 	public void ToggleToolTip(bool enabled){
 		if (enabled) {
 			toolTipObj.SetActive (true);
+			toolTipObj.transform.position = Input.mousePosition;
 		}
 		else if(!enabled){
 			toolTipObj.SetActive (false);

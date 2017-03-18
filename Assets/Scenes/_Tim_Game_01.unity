@@ -723,6 +723,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650752730 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1494447476782478, guid: 5f4aec95888148e42bb1af22bdafb581,
+    type: 2}
+  m_PrefabInternal: {fileID: 795144663}
+--- !u!225 &650752731
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650752730}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &658294552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,15 +1088,6 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 107859970}
-    - target: {fileID: 225876612706640298, guid: 5f4aec95888148e42bb1af22bdafb581,
-        type: 2}
-      propertyPath: m_Alpha
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1427018759426414, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224307970464098900, guid: 5f4aec95888148e42bb1af22bdafb581,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -1635,6 +1642,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &903364269 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1903238645256202, guid: 5f4aec95888148e42bb1af22bdafb581,
+    type: 2}
+  m_PrefabInternal: {fileID: 795144663}
+--- !u!225 &903364270
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903364269}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &916800470
 GameObject:
   m_ObjectHideFlags: 0
