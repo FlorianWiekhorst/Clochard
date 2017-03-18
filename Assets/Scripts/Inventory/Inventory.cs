@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
 
-public class Inventory : MonoBehaviour {
+public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
 
 	public GameObject inventory;
 	public GameObject reticle;
@@ -13,12 +13,16 @@ public class Inventory : MonoBehaviour {
 	public GameObject[] itemPrefabs = new GameObject[numItemSlots];
 	public const int numItemSlots = 15;
 	CursorLockMode wantedMode;
+	public bool pointerOver;
+	public GameObject player;
+
 
 	GameObject invBG;
 
 
 	void Awake(){
-
+		pointerOver = true;
+		player = GameObject.Find ("_Player");
 		inventory = GameObject.Find ("Inventory");
 		reticle = GameObject.Find ("Reticle");
 		invBG = GameObject.Find ("Inventory_background");
@@ -27,7 +31,6 @@ public class Inventory : MonoBehaviour {
 	public void showInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 1f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 0f;
-//		reticle.SetActive(false);
 		invBG.GetComponent<CanvasGroup>().alpha = 1f;
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
@@ -38,7 +41,6 @@ public class Inventory : MonoBehaviour {
 	public void hideInventory(){
 		inventory.GetComponent<CanvasGroup> ().alpha = 0f;
 		reticle.GetComponent<CanvasGroup> ().alpha = 1f;
-//		reticle.SetActive(true);
 		invBG.GetComponent<CanvasGroup>().alpha = 0f;
 		Cursor.visible = false;
 		Cursor.lockState = wantedMode = CursorLockMode.Locked;
@@ -68,11 +70,18 @@ public class Inventory : MonoBehaviour {
 	}
 	public void RemoveItem (Item itemToRemove)
 	{
+		
+		Instantiate (itemToRemove.prefab,player.transform.position+(player.transform.forward*2),Quaternion.identity);
 		for (int i = 0; i < items.Length; i++)
 		{
 			if (items[i] == itemToRemove)
 			{
 				items[i] = null;
+				itemPrefabs [i] = null;
+
+				dragHandler.gameObj = null;
+				dragHandler.item = null;
+
 				itemImages[i].sprite = null;
 				itemImages[i].enabled = false;
 				return;
@@ -80,4 +89,19 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
+	#region IPointerEnterHandler implementation
+	public void OnPointerEnter (PointerEventData eventData)
+	{
+		pointerOver = true;
+	}
+	#endregion
+
+	#region IPointerExitHandler implementation
+
+	public void OnPointerExit (PointerEventData eventData)
+	{
+		pointerOver = false;
+	}
+
+	#endregion
 }

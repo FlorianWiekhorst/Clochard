@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Rock
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 827c9cd4a3943534f909ac6473e17288, type: 3}
-  prefab: {fileID: 100000, guid: 46faa252c4b72034aa82554c6d1c0dda, type: 3}
+  prefab: {fileID: 1271401998541260, guid: 07952a569c59d594ca1782e1d042be7d, type: 2}

@@ -37,7 +37,8 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 	public void OnBeginDrag(PointerEventData eventData){
 		//For later reset purposes
 		cachedParent = this.transform.parent;
-	
+		this.gameObject.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
 		//Setting the new Parent
 		this.transform.SetParent (inventoryObj.transform);
 		startTransform = transform as RectTransform;
@@ -50,20 +51,16 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 
 	public void OnDrag (PointerEventData eventData)
 	{
-		
 		Debug.Log (startPosition);
 		this.transform.position = eventData.position;
-
-
-		//throw new System.NotImplementedException ();
 	}
 
 	public void OnEndDrag(PointerEventData eventData){
 		Debug.Log ("End Drag");
-//		if (!slotHandler.pointerIsOver) {
-//			inventory.RemoveItem (item);
-//		}
-
+		if (!inventory.pointerOver) {
+			inventory.RemoveItem (item);
+		}
+		this.gameObject.GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		this.transform.SetParent (cachedParent.transform);
 		this.transform.position = startPosition;
 	}
