@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 222150364674976254}
   - component: {fileID: 114477289493492526}
   - component: {fileID: 114854811597033912}
+  - component: {fileID: 225309530684438288}
   m_Layer: 5
   m_Name: Use
   m_TagString: Untagged
@@ -624,6 +625,7 @@ GameObject:
   - component: {fileID: 222540329827704360}
   - component: {fileID: 114894844023280596}
   - component: {fileID: 114011216974748924}
+  - component: {fileID: 225904374441218570}
   m_Layer: 5
   m_Name: Drop
   m_TagString: Untagged
@@ -755,6 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64bb116d62a0e794f82ea0ca5ed31abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedSlot: {fileID: 0}
 --- !u!114 &114011863776894602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1167,6 +1170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114196343573316962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1180,6 +1185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114207096944385970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1220,6 +1227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114219860307318162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1287,6 +1296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114267136542021024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1367,6 +1378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114301040584672302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1523,6 +1536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114347422522810884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1617,6 +1632,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114389882366942110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1706,6 +1723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114465745547029116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1719,6 +1738,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114472700934925706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1819,6 +1840,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114553618893472404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1926,6 +1949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114610780822359516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1939,6 +1964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114627102797087896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2060,6 +2087,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114690435060201472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2329,6 +2358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114819560251870956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2409,6 +2440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerIsOver: 0
   toolTipBG: {fileID: 1427018759426414}
+  isOverToolTip: 0
+  slotActive: {fileID: 0}
 --- !u!114 &114854811597033912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2420,6 +2453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64bb116d62a0e794f82ea0ca5ed31abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedSlot: {fileID: 0}
 --- !u!114 &114870141297939022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3616,6 +3650,17 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!225 &225309530684438288
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494447476782478}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!225 &225322952075674732
 CanvasGroup:
   m_ObjectHideFlags: 1
@@ -3732,6 +3777,17 @@ CanvasGroup:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1763500391937682}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!225 &225904374441218570
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903238645256202}
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
