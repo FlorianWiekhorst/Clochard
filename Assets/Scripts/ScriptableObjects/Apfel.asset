@@ -13,3 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 07237638db3ac9843b793d9b4b3df6a3, type: 3}
   prefab: {fileID: 1880881388061940, guid: 1575ed7329febba4f95813ce6eb72814, type: 2}
+  stackable: 1
