@@ -9,6 +9,7 @@ TagManager:
   - startbtn
   - quitbtn
   - Door
+  - Destroyer
   layers:
   - Default
   - TransparentFX
