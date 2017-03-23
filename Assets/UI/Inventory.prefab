@@ -16,14 +16,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000013667534996}
-  - 223: {fileID: 223000014026952564}
-  - 114: {fileID: 114000014020957170}
-  - 114: {fileID: 114000012960709192}
-  - 225: {fileID: 225000012906175646}
-  - 114: {fileID: 114000012818137840}
+  - component: {fileID: 224000013667534996}
+  - component: {fileID: 223000014026952564}
+  - component: {fileID: 114000014020957170}
+  - component: {fileID: 114000012960709192}
+  - component: {fileID: 225000012906175646}
+  - component: {fileID: 114000012818137840}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -36,11 +36,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000012806386596}
-  - 222: {fileID: 222000011741384910}
-  - 114: {fileID: 114000014219508726}
+  - component: {fileID: 224000012806386596}
+  - component: {fileID: 222000011741384910}
+  - component: {fileID: 114000014219508726}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -53,11 +53,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000012006340794}
-  - 222: {fileID: 222000013556745698}
-  - 114: {fileID: 114000010918070382}
+  - component: {fileID: 224000012006340794}
+  - component: {fileID: 222000013556745698}
+  - component: {fileID: 114000010918070382}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -103,10 +103,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374422edc44701d478d25d35d546cfc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  space: 10
-  items: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   inventory: {fileID: 1000010703409682}
   reticle: {fileID: 0}
+  dragHandler: {fileID: 0}
+  itemImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  items: []
+  itemPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pointerOver: 0
+  player: {fileID: 0}
 --- !u!114 &114000012960709192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,10 +245,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 224000012806386596}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -229,11 +263,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224000012006340794}
   m_Father: {fileID: 224000013667534996}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -248,11 +282,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224000012806386596}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -265,7 +299,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010703409682}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0

@@ -7,5 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-  - enabled: 0
-    path: Assets/Scenes/Game_01.unity
+  - enabled: 1
+    path: Assets/Scenes/_Flo_Game_01.unity
+  - enabled: 1
+    path: Assets/Scenes/_Tim_Game_01.unity

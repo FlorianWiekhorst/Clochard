@@ -23,4 +23,11 @@ public class Teleporter : MonoBehaviour {
 		SceneManager.LoadScene (scene);
 	}
 
+	void OnTriggerEnter(Collider other) //activates .LoadScene by ColliderTrigger
+	{
+		if (other.gameObject.CompareTag ("Player")) {
+			SceneManager.LoadScene (scene);
+		}
+	}
+
 }

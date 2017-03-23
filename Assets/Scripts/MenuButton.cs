@@ -13,7 +13,7 @@ public class MenuButton : MonoBehaviour {
 
 	void StartTask()
 	{
-		SceneManager.LoadScene ("Game_01");
+		SceneManager.LoadScene ("_Flo_Game_01");
 	}
 	void QuitTask(){
 		Application.Quit();
