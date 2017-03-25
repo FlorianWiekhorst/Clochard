@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23002996140582478}
   - component: {fileID: 54725361107550970}
   - component: {fileID: 65586196541800786}
+  - component: {fileID: 114010495338824842}
   m_Layer: 0
   m_Name: Obj_CrunchyPunch
   m_TagString: Item
@@ -56,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 261864460f35d7e448b9340713b91cbd, type: 2}
+  - {fileID: 2100000, guid: e7431d7c33690db40a5791d0fa8fa07b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,3 +109,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.003, y: 0.005999999, z: 0.005999999}
   m_Center: {x: 0, y: 0, z: 0.0029999996}
+--- !u!114 &114010495338824842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211454907971134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e970dcafde82a204081e8518517ff18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 498e61bdb4ced1645b5343aeb1a8d6d8, type: 2}
