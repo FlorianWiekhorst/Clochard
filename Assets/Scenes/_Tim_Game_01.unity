@@ -281,6 +281,31 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: -163.5
       objectReference: {fileID: 0}
+    - target: {fileID: 224998111177506500, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224998111177506500, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d, type: 2}
   m_IsPrefabParent: 0
@@ -412,6 +437,129 @@ Transform:
   m_Father: {fileID: 1846196985}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &323877265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 323877267}
+  - component: {fileID: 323877266}
+  - component: {fileID: 323877268}
+  m_Layer: 0
+  m_Name: Cutscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &323877266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323877265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962786ae95591f84f9cb8957af5b8727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCutsceneCam: {fileID: 107859970}
+  mainAudioPoints: []
+  cutsceneAnimators: []
+  cutsceneAnimatorVariables: []
+  cutsceneAnimatorVarChoices: 
+  cutsceneAnimatorVariableTargets: 
+  cutsceneAudio: []
+  disableWhileInCutscene:
+  - {fileID: 1718821138}
+  cutsceneCameraPoints:
+  - {fileID: 323877267}
+  - {fileID: 1337611476}
+  - {fileID: 1352017923}
+  cutsceneMidPoints:
+  - {fileID: 1352017923}
+  - {fileID: 1337611476}
+  cutsceneCubicMidPoints:
+  - {fileID: 1352017923}
+  - {fileID: 1337611476}
+  curveChoice: 00
+  lerpCurveChoice: 00
+  cutsceneEventKeyTime:
+  - 2
+  cutsceneEventTimescale:
+  - 1
+  cutsceneEventZoom: 00
+  cutsceneEventZoomAmount:
+  - 60
+  useDeltaTime: 1
+  cutsceneEventZoomSpeed:
+  - 0.1
+  broadcastMessageString:
+  - 
+  broadcastMessageChoice: 00
+  broadcastMessageTarget:
+  - {fileID: 0}
+  doUpdate: 0
+  doShake: 00
+  cameraShakeAmount:
+  - 1
+  smoothFollowTarget:
+  - {fileID: 0}
+  smoothFollow: 00
+  cutsceneCameraSpeedOptions: 07000000
+  customMovementSpeed:
+  - 1
+  customRotationSpeed:
+  - 1
+  customCurveMovementSpeed:
+  - 1
+  curveNodeCount: 90000000
+  cutsceneCameraRotationSpeedOptions: 00000000
+  playingCutscene: 0
+  showPathType: 0
+  currentNodes: []
+--- !u!4 &323877267
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323877265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -666, y: 98, z: -533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1337611476}
+  - {fileID: 1352017923}
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &323877268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323877265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83762343950d47149ba0b6719579fb61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navActions: 00000000
+  navAgents:
+  - {fileID: 0}
+  showEvent: 01
+  cutsceneEventAmount: 2
+  startAtTransition: 00000000
+  actionStartDelay:
+  - 0
+  navDestinations:
+  - {fileID: 0}
+  navAgentSpeed:
+  - 3.5
+  - 3.5
+  preCalcPaths: 0
 --- !u!114 &347148678 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114062417246002164, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
@@ -2329,6 +2477,62 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000012565692554, guid: d54e96152d3a01746ab00c61882ba94c,
     type: 2}
   m_PrefabInternal: {fileID: 1133022567}
+--- !u!1 &1337611475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1337611476}
+  m_Layer: 0
+  m_Name: CameraPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1337611476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337611475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0968018, y: 3.6239014, z: 3.1695557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 323877267}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1352017922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1352017923}
+  m_Layer: 0
+  m_Name: CameraPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352017923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352017922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.73, y: -0.1, z: -1.3913574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 323877267}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366796681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +3300,12 @@ MonoBehaviour:
   staminaText: {fileID: 347148678}
   cacheSpeed: {x: 0, y: 0, z: 0}
   playerController: {fileID: 0}
+--- !u!114 &1718821138 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000010296306974, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1811977321}
+  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
 --- !u!1001 &1779782014
 Prefab:
   m_ObjectHideFlags: 0
