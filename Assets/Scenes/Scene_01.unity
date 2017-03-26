@@ -2358,6 +2358,11 @@ Prefab:
       propertyPath: reticle
       value: 
       objectReference: {fileID: 1197676629}
+    - target: {fileID: 225000010337027224, guid: eebcacf8044fe424098e546e982c3efd,
+        type: 2}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eebcacf8044fe424098e546e982c3efd, type: 2}
   m_IsPrefabParent: 0
@@ -5615,21 +5620,6 @@ MonoBehaviour:
   staminaText: {fileID: 1207081465}
   cacheSpeed: {x: 0, y: 0, z: 0}
   playerController: {fileID: 0}
---- !u!114 &810219888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 810219882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc8bf2567f535ab49b6f93f7d962e77e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 114000012818137840, guid: 96ed37184b442df4b929f598a7a45465,
-    type: 2}
-  menu: {fileID: 682230121}
-  reticle: {fileID: 1197676629}
 --- !u!1 &811413476
 GameObject:
   m_ObjectHideFlags: 0
@@ -16030,8 +16020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isItem: 0
-  interactText: {fileID: 1000012205481348, guid: d54e96152d3a01746ab00c61882ba94c,
-    type: 2}
+  interactText: {fileID: 1197676629}
   distanceToSee: 3
   inventory: {fileID: 114000012818137840, guid: 96ed37184b442df4b929f598a7a45465,
     type: 2}
