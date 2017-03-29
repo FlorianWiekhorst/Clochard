@@ -22,4 +22,13 @@ public static class SaveManager {
 		file.Close();
 	}
 
+	public static void Load(){
+		if (File.Exists (Path.Combine (Application.dataPath, "../SaveFiles/savegame.clo"))) {
+			BinaryFormatter bf = new BinaryFormatter ();
+			FileStream file = File.Open (Path.Combine (Application.dataPath, "../SaveFiles/savegame.clo"), FileMode.Open);
+			SaveManager.savedGames = (List<SaveFile>)bf.Deserialize (file);
+			file.Close ();
+		}
+	}
+
 }

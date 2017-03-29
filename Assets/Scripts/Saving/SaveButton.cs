@@ -8,8 +8,6 @@ public class SaveButton : MonoBehaviour {
 
 	private Button saveButton;
 
-
-	// Use this for initialization
 	void Start () {
 		saveButton = GetComponent<Button>();
 		saveButton.onClick.AddListener (SaveGame);

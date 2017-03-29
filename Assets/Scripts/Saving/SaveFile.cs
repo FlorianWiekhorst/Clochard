@@ -8,9 +8,10 @@ public class SaveFile  {
 
 	public static SaveFile current;
 	public string testString;
+	public ObjectPosition pos;
 
 	public SaveFile(){
-		testString = "Poop";
+		pos = new ObjectPosition ();
 	}
 
 }
