@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 1a550deff58dd9d41979862cabf521ea
+timeCreated: 1491160190
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Casual walk straight
+    100002: Chest
+    100004: Chest2
+    100006: Head
+    100008: Head_end
+    100010: Hips
+    100012: LeftAnkle
+    100014: LeftAnkle_end
+    100016: LeftCollar
+    100018: LeftElbow
+    100020: LeftHip
+    100022: LeftKnee
+    100024: LeftShoulder
+    100026: LeftWrist
+    100028: LeftWrist_end
+    100030: //RootNode
+    100032: Neck
+    100034: Penner_01
+    100036: RightAnkle
+    100038: RightAnkle_end
+    100040: RightCollar
+    100042: RightElbow
+    100044: RightHip
+    100046: RightKnee
+    100048: RightShoulder
+    100050: RightWrist
+    100052: RightWrist_end
+    400000: Casual walk straight
+    400002: Chest
+    400004: Chest2
+    400006: Head
+    400008: Head_end
+    400010: Hips
+    400012: LeftAnkle
+    400014: LeftAnkle_end
+    400016: LeftCollar
+    400018: LeftElbow
+    400020: LeftHip
+    400022: LeftKnee
+    400024: LeftShoulder
+    400026: LeftWrist
+    400028: LeftWrist_end
+    400030: //RootNode
+    400032: Neck
+    400034: Penner_01
+    400036: RightAnkle
+    400038: RightAnkle_end
+    400040: RightCollar
+    400042: RightElbow
+    400044: RightHip
+    400046: RightKnee
+    400048: RightShoulder
+    400050: RightWrist
+    400052: RightWrist_end
+    4300000: Penner_01
+    7400000: Casual walk straight|Casual walk straight
+    9500000: //RootNode
+    13700000: Penner_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Casual walk straight|Casual walk straight
+      takeName: Casual walk straight|Casual walk straight
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Casual walk straight
+        weight: 1
+      - path: Casual walk straight/Hips
+        weight: 1
+      - path: Casual walk straight/Hips/Chest
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/Neck/Head/Head_end
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Casual walk straight/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Casual walk straight/Hips/LeftHip
+        weight: 1
+      - path: Casual walk straight/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: Casual walk straight/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Casual walk straight/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Casual walk straight/Hips/RightHip
+        weight: 1
+      - path: Casual walk straight/Hips/RightHip/RightKnee
+        weight: 1
+      - path: Casual walk straight/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Casual walk straight/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Penner_01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.22
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
