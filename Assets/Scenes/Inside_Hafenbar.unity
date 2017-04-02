@@ -757,7 +757,7 @@ GameObject:
   - component: {fileID: 544801337}
   - component: {fileID: 544801336}
   - component: {fileID: 544801335}
-  - component: {fileID: 544801339}
+  - component: {fileID: 544801340}
   m_Layer: 0
   m_Name: TVProgramm
   m_TagString: Untagged
@@ -830,7 +830,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
---- !u!114 &544801339
+--- !u!114 &544801340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -838,7 +838,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 544801334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e92b0dc8c384604d8417511471ff68c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a9bd8e0560879344b45b5dadf16b79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &560415829
