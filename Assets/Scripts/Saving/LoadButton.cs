@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class LoadButton : MonoBehaviour {
 
 	private Button loadButton;
-	public ObjectPosition pos;
+//	public ObjectPosition pos;
 
 	void Start () {
 		loadButton = GetComponent<Button>();

@@ -6,16 +6,18 @@ using UnityEngine;
 using UnityEngine.Scripting;
 
 [System.Serializable]
-public class ObjectPosition :MonoBehaviour {
+public class ObjectPosition  {
 
-	public GameObject[] sceneObjects;
-	public Vector3[] positions;
+//	public GameObject[] sceneObjects;
+//	public Vector3[] positions;
+
+	//Positionen der GameObjects
+	public float[] x;
+	public float[] y;
+	public float[] z;
 
 	public ObjectPosition(){
-		sceneObjects = FindObjectsOfType(typeof(GameObject)) as GameObject[];
-		for(int i = 0;i < sceneObjects.Length;i++){
-			positions [i] = sceneObjects [i].transform.position;
-		}
+		x = new float[10];
 	}
 
 }
