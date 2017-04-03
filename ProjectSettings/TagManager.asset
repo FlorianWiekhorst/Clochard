@@ -10,6 +10,8 @@ TagManager:
   - quitbtn
   - Door
   - Destroyer
+  - Fire
+  - Slot
   layers:
   - Default
   - TransparentFX

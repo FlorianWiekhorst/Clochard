@@ -8,8 +8,8 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 
 	private Text text;
 	private Color cacheColor;
-	GameObject slothandlerObj;
-	SlotHandler slothandler;
+	GameObject[] slothandlerObj;
+	public SlotHandler slothandler;
 //	public InvDragHandler draghandler;
 	GameObject inventoryObj;
 	Inventory inventory;
@@ -19,8 +19,9 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 	private void Start () {
 		inventoryObj = GameObject.Find ("Inventory");
 		inventory = inventoryObj.GetComponent<Inventory> ();
-		slothandlerObj = GameObject.Find ("Slot");
-		slothandler = slothandlerObj.GetComponent<SlotHandler> ();
+		//This is the PROBLEM
+		//slothandlerObj = GameObject.FindGameObjectsWithTag ("Slot");
+		slothandler = slothandlerObj[1].GetComponent<SlotHandler> ();
 		text = GetComponent<Text> ();
 		selectedSlot = slothandler.slotActive;
 	}

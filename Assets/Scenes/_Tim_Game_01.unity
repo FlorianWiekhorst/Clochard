@@ -1966,6 +1966,66 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1569996343779200, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944262205854496, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436910166972294, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554975315136208, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713862776963316, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120691482799036, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806217656355944, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302854782934070, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514214003789948, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385663143242204, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595251044456776, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466692336759224, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320005292973032, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943052214449844, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698203566179160, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
+      propertyPath: m_TagString
+      value: Slot
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f4aec95888148e42bb1af22bdafb581, type: 2}
   m_IsPrefabParent: 0
@@ -2732,7 +2792,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1944796064473542, guid: 5f4aec95888148e42bb1af22bdafb581,
     type: 2}
   m_PrefabInternal: {fileID: 795144663}
---- !u!23 &1145163835
+--- !u!23 &1145163839
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

@@ -13,6 +13,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	public GameObject toolTipBG;
 	public bool isOverToolTip;
 	public GameObject slotActive;
+	public TooltipButton toolButt;
 	Color grayish;
 
 
@@ -31,6 +32,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 			//Debug.Log ("Mouse clicked");
 			tooltip.SendMessage ("ToggleToolTip",true);
 			slotActive = this.gameObject;
+
 		}
 		else if(Input.GetMouseButtonDown(0) && !isOverToolTip){
 			if (toolTipBG.activeSelf) {
