@@ -8,6 +8,8 @@ public class UIHandler : MonoBehaviour {
 	public ESCMenu menu;
 	public GameObject reticle;
 
+
+
 	// Update is called once per frame
 	void Update () {
 		if (!isActive) {

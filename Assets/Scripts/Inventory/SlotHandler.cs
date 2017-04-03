@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
 
 	public bool pointerIsOver;
-	Outline outline; 
-	Color cacheColor;
+	public Outline outline; 
 	Tooltip tooltip;
 	GameObject toolTipObj;
 	public GameObject toolTipBG;
 	public bool isOverToolTip;
 	public GameObject slotActive;
+	Color grayish;
 
 
 	void Start(){
@@ -21,7 +21,9 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 		isOverToolTip = false;
 		toolTipObj = GameObject.Find ("Tooltip");
 		tooltip = toolTipObj.GetComponent<Tooltip> ();
-		outline = this.gameObject.GetComponent<Outline> ();
+		outline = this.gameObject.GetComponent<Outline> (); 
+		grayish = new Color (0.34f, 0.34f, 0.34f);
+
 	}
 
 	void Update(){
@@ -34,6 +36,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 			if (toolTipBG.activeSelf) {
 				//Debug.Log ("Disabled");
 				tooltip.SendMessage ("ToggleToolTip",false);
+				slotActive = null;
 			}
 		
 		}
@@ -44,7 +47,6 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	public void OnPointerEnter (PointerEventData eventData)
 	{
 		pointerIsOver = true;
-		cacheColor = outline.effectColor;
 		outline.effectColor = Color.white;
 	
 	}
@@ -55,11 +57,15 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	public void OnPointerExit (PointerEventData eventData)
 	{
 		pointerIsOver = false;
-		outline.effectColor = cacheColor;
+		ResetOutlineColor ();
 
 	}
 
 	#endregion
 
+	public void ResetOutlineColor(){
+		
+		outline.effectColor = Color.black;
+	}
 
 }

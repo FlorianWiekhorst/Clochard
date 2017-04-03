@@ -52,6 +52,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 		Debug.Log ("Clicked");
 		if(text.text == "Use"){
 			Debug.Log ("Used");
+			slothandler.slotActive = null;
 		}
 		else if(text.text == "Drop"){
 			selectedSlot = slothandler.slotActive;

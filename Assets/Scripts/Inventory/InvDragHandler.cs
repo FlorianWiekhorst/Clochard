@@ -59,10 +59,15 @@ public class InvDragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IEnd
 		Debug.Log ("End Drag");
 		if (!inventory.pointerOver) {
 			inventory.RemoveItem (item);
+			slotHandler.slotActive = null;
+			slotHandler.ResetOutlineColor ();
+		} else {
+			this.transform.SetParent (cachedParent.transform);
+			this.transform.position = startPosition;
+			slotHandler.slotActive = null;
 		}
 		this.gameObject.GetComponent<CanvasGroup> ().blocksRaycasts = true;
-		this.transform.SetParent (cachedParent.transform);
-		this.transform.position = startPosition;
+
 	}
 
 
