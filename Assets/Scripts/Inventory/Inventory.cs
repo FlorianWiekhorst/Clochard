@@ -68,25 +68,25 @@ public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler 
 			}
 		}
 	}
-	public void RemoveItem (Item itemToRemove)
+	public void RemoveItem (Item itemToRemove,int num)
 	{
 		
 		Instantiate (itemToRemove.prefab,player.transform.position+(player.transform.forward*2),Quaternion.identity);
-		for (int i = 0; i < items.Length; i++)
-		{
-			if (items[i] == itemToRemove)
+//		for (int i = 0; i < items.Length; i++)
+//		{
+			if (items[num] == itemToRemove)
 			{
-				items[i] = null;
-				itemPrefabs [i] = null;
+				items[num] = null;
+				itemPrefabs [num] = null;
 
 				dragHandler.gameObj = null;
 				dragHandler.item = null;
 
-				itemImages[i].sprite = null;
-				itemImages[i].enabled = false;
+				itemImages[num].sprite = null;
+				itemImages[num].enabled = false;
 				return;
 			}
-		}
+//		}
 	}
 
 	#region IPointerEnterHandler implementation

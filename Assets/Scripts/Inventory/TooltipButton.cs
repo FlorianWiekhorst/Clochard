@@ -21,7 +21,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 		inventory = inventoryObj.GetComponent<Inventory> ();
 		//This is the PROBLEM
 		//slothandlerObj = GameObject.FindGameObjectsWithTag ("Slot");
-		slothandler = slothandlerObj[1].GetComponent<SlotHandler> ();
+		//slothandler = slothandlerObj[1].GetComponent<SlotHandler> ();
 		text = GetComponent<Text> ();
 		selectedSlot = slothandler.slotActive;
 	}
@@ -29,6 +29,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 	#region IPointerEnterHandler implementation
 	public void OnPointerEnter (PointerEventData eventData)
 	{
+//		slothandler = eventData.selectedObject.GetComponent<SlotHandler> ();
 		cacheColor = text.color;
 		text.color = Color.red;
 		slothandler.isOverToolTip = true;
@@ -40,6 +41,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 	public void OnPointerExit (PointerEventData eventData)
 	{
 		slothandler.isOverToolTip = false;
+		slothandler = null;
 		text.color = cacheColor;
 	}
 
@@ -49,6 +51,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 
 	public void OnPointerDown (PointerEventData eventData)
 	{
+//		slothandler = eventData.pointerPress.GetComponent<SlotHandler> ();
 		text.color = cacheColor;
 		Debug.Log ("Clicked");
 		if(text.text == "Use"){
@@ -57,7 +60,7 @@ public class TooltipButton : MonoBehaviour,IPointerEnterHandler,IPointerExitHand
 		}
 		else if(text.text == "Drop"){
 			selectedSlot = slothandler.slotActive;
-			inventory.RemoveItem (selectedSlot.gameObject.GetComponentInChildren<InvDragHandler>().item);
+			inventory.RemoveItem (selectedSlot.gameObject.GetComponentInChildren<InvDragHandler>().item,slothandler.slotnumber);
 		}
 	}
 

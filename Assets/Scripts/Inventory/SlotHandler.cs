@@ -14,6 +14,7 @@ public class SlotHandler : MonoBehaviour,IPointerEnterHandler,IPointerExitHandle
 	public bool isOverToolTip;
 	public GameObject slotActive;
 	public TooltipButton toolButt;
+	public int slotnumber;
 	Color grayish;
 
 

@@ -9,6 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfcf63898d5b8ab409cbfc029e717609, type: 3}
-  m_Name: Poop
+  m_Name: Rock
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 827c9cd4a3943534f909ac6473e17288, type: 3}
+  prefab: {fileID: 1271401998541260, guid: 07952a569c59d594ca1782e1d042be7d, type: 2}
+  stackable: 0
