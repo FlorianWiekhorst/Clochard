@@ -14,6 +14,7 @@ public class PlayerManager : MonoBehaviour {
 	public CharacterController playerController;
 
 
+
 	void Start(){
 		playerController = GetComponent<CharacterController> ();
 		staminaText.text = stamina.ToString ();
@@ -21,7 +22,7 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if(health == 0){
+		if(health == 0){		//Life
 			GameOver ();
 		}
 
