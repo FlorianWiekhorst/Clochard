@@ -27,13 +27,16 @@ public class PlayerManager : MonoBehaviour {
 		}
 
 
-		if(Input.GetButton("Run")){
-			stamina = Mathf.Clamp(stamina-(Time.deltaTime*10),0,100);
-			staminaText.text = stamina.ToString ("N0");
-			if(stamina == 0.0f){
+		if (Input.GetButton ("Run") && transform.GetComponent<CharacterController>().velocity.magnitude != 0f) {
+			StopCoroutine (FillStamina());
+			StartCoroutine (LoseStamina());
+			if (stamina == 0.0f) {
 				playerController.enabled = false;
-				Invoke ("ResetStamina",3.0f);
+				Invoke ("ResetStamina", 3.0f);
 			}
+		} else {
+			StopCoroutine (LoseStamina());
+			StartCoroutine (FillStamina());
 		}
 	}
 
@@ -44,6 +47,17 @@ public class PlayerManager : MonoBehaviour {
 		stamina = 100.0f;
 		staminaText.text = stamina.ToString("N0");
 		playerController.enabled = true;
+	}
+
+	IEnumerator FillStamina(){
+		yield return new WaitForSeconds (1);
+		stamina = Mathf.Clamp (stamina + (Time.deltaTime * 10), 0, 100);
+		staminaText.text = stamina.ToString ("N0");
+	}
+	IEnumerator LoseStamina(){
+		stamina = Mathf.Clamp (stamina - (Time.deltaTime * 10), 0, 100);
+		staminaText.text = stamina.ToString ("N0");
+		yield return null;
 	}
 
 }
