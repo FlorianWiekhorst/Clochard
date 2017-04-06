@@ -303,27 +303,27 @@ Prefab:
     - target: {fileID: 224998111177506500, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224998111177506500, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224727715032372814, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1316767130916270, guid: 0a9a50e06c58bcd4faf89ac60c9adc3d, type: 2}
       propertyPath: m_IsActive
@@ -3421,38 +3421,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6fc5b3976592764a9415655914ee901, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1718821132 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010369191396, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1811977321}
---- !u!114 &1718821133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718821132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b8dea2f3eb371409509f9b1b3aa115, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  stamina: 100
-  staminaText: {fileID: 347148678}
-  cacheSpeed: {x: 0, y: 0, z: 0}
-  playerController: {fileID: 0}
---- !u!114 &1718821134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718821132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 445cf9ba16aa4cd478cd6aa00ac0bbbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1718821138 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114000010296306974, guid: 868163eacc02e7f4b93e640d16bdcbc6,
@@ -3566,6 +3534,11 @@ Prefab:
       propertyPath: reticle
       value: 
       objectReference: {fileID: 1675946529}
+    - target: {fileID: 225000010337027224, guid: eebcacf8044fe424098e546e982c3efd,
+        type: 2}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eebcacf8044fe424098e546e982c3efd, type: 2}
   m_IsPrefabParent: 0
@@ -3636,51 +3609,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114811150344028744, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: interactText
-      value: 
-      objectReference: {fileID: 1304492049}
-    - target: {fileID: 114811150344028744, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+    - target: {fileID: 114969662631458340, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: inventory
       value: 
       objectReference: {fileID: 1221563967}
-    - target: {fileID: 114046855377737366, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: inventory
-      value: 
-      objectReference: {fileID: 1221563967}
-    - target: {fileID: 114046855377737366, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+    - target: {fileID: 114969662631458340, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: menu
       value: 
       objectReference: {fileID: 1851702759}
-    - target: {fileID: 114046855377737366, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+    - target: {fileID: 114969662631458340, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: reticle
       value: 
       objectReference: {fileID: 1675946529}
-    - target: {fileID: 54000010399429586, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+    - target: {fileID: 114928908624169768, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
-      propertyPath: m_Constraints
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010399429586, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 1304492049}
+    - target: {fileID: 114717109405093870, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010399429586, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010296306974, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_UseFovKick
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: staminaText
+      value: 
+      objectReference: {fileID: 347148678}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
   m_IsPrefabParent: 0
