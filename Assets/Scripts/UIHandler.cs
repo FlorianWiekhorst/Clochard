@@ -8,6 +8,12 @@ public class UIHandler : MonoBehaviour {
 	public ESCMenu menu;
 	public GameObject reticle;
 
+	void Start(){
+		inventory = GameObject.Find ("Inventory").GetComponent<Inventory> ();
+		menu = GameObject.Find ("ESCMenu").GetComponent<ESCMenu> ();
+		reticle = GameObject.Find ("Reticle");
+
+	}
 
 
 	// Update is called once per frame

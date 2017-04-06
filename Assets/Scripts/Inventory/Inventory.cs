@@ -15,7 +15,7 @@ public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler 
 	CursorLockMode wantedMode;
 	public bool pointerOver;
 	public GameObject player;
-
+	public SimpleSmoothMouseLook camera_rotation;
 
 	GameObject invBG;
 
@@ -26,6 +26,7 @@ public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler 
 		inventory = GameObject.Find ("Inventory");
 		reticle = GameObject.Find ("Reticle");
 		invBG = GameObject.Find ("Inventory_background");
+		camera_rotation = player.GetComponent<SimpleSmoothMouseLook> ();
 	}
 
 	public void showInventory(){
@@ -35,7 +36,7 @@ public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler 
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
 		Time.timeScale = 0f;
-	
+		camera_rotation.enabled = false;
 	}
 
 	public void hideInventory(){
@@ -45,6 +46,7 @@ public class Inventory : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler 
 		Cursor.visible = false;
 		Cursor.lockState = wantedMode = CursorLockMode.Locked;
 		Time.timeScale = 1f;
+		camera_rotation.enabled = true;
 	}
 
 	public void AddItem(Item itemToAdd){
