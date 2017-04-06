@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f8ab5c38cbb9bd64cb91e100e0dedeb4
-timeCreated: 1491461168
+guid: 16e15cef98bdb034c9d204996ea4875c
+timeCreated: 1491472524
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -129,9 +129,19 @@ ModelImporter:
     400120: upperarm_r 1
     4300000: Arm_Right.001
     4300002: Arm_Right
-    7400000: Left_Arm_standStill
-    7400002: Right_Arm_FlipOff
-    7400004: Right_Arm_idle
+    7400000: LeftArm_Idle_to_Block
+    7400002: LeftArm_Idle
+    7400004: RightArm_Idle
+    7400006: RightArm_Middlefinger
+    7400008: Bones_Right|PoseLib
+    7400010: Bones_Right|PoseLib.001
+    7400012: RightArm_PickUp
+    7400014: RightArm_Eat
+    7400016: RightArm_Idle_to_Block
+    7400018: RightArm_Punch
+    7400020: LeftArm_Punch
+    7400022: RightArm_blocking
+    7400024: LeftArm_blocking
     9500000: //RootNode
     13700000: Arm_Right
     13700002: Arm_Right.001
@@ -159,8 +169,8 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Left_Arm_standStill
-      takeName: Bones_Left|_Mesh_for_PlayerARMS.001
+      name: LeftArm_Idle
+      takeName: Bones_Left|PoseLib
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -329,10 +339,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Right_Arm_FlipOff
-      takeName: Bones_Right|_Mesh_for_PlayerARMS
+      name: RightArm_Idle
+      takeName: Bones_Left|PoseLib.001
       firstFrame: 0
-      lastFrame: 94
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -499,17 +509,1037 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Right_Arm_idle
+      name: RightArm_Middlefinger
       takeName: Bones_Right|_Mesh_for_PlayerARMS
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 100
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RightArm_PickUp
+      takeName: Bones_Right|_Mesh_for_PlayerARMS
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RightArm_Eat
+      takeName: Bones_Right|_Mesh_for_PlayerARMS
+      firstFrame: 400
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RightArm_Punch
+      takeName: Bones_Right|_Mesh_for_PlayerARMS
+      firstFrame: 800
+      lastFrame: 899
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LeftArm_Punch
+      takeName: Bones_Left|_Mesh_for_PlayerARMS.001
+      firstFrame: 800
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RightArm_blocking
+      takeName: Bones_Right|_Mesh_for_PlayerARMS
+      firstFrame: 649
+      lastFrame: 651
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Right
+        weight: 1
+      - path: Arm_Right.001
+        weight: 1
+      - path: Bones_Left
+        weight: 1
+      - path: Bones_Left/upperarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Bones_Left/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Bones_Right
+        weight: 1
+      - path: Bones_Right/upperarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__index_01_r 1/index_01_r
+          1/index_02_r 1/index_03_r 1/index_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__middle_01_r 1/middle_01_r
+          1/middle_02_r 1/middle_03_r 1/middle_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__pinky_01_r 1/pinky_01_r
+          1/pinky_02_r 1/pinky_03_r 1/pinky_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__ring_01_r 1/ring_01_r
+          1/ring_02_r 1/ring_03_r 1/ring_03_r_end 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1
+        weight: 1
+      - path: Bones_Right/upperarm_r 1/lowerarm_r 1/hand_r 1/__thumb_01_r 1/thumb_01_r
+          1/thumb_02_r 1/thumb_03_r 1/thumb_03_r_end 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LeftArm_blocking
+      takeName: Bones_Left|_Mesh_for_PlayerARMS.001
+      firstFrame: 650
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
