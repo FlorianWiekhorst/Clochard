@@ -559,7 +559,7 @@ MonoBehaviour:
   cutsceneAnimatorVariableTargets: 
   cutsceneAudio: []
   disableWhileInCutscene:
-  - {fileID: 1718821138}
+  - {fileID: 0}
   cutsceneCameraPoints:
   - {fileID: 323877267}
   - {fileID: 1337611476}
@@ -3421,12 +3421,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6fc5b3976592764a9415655914ee901, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1718821138 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000010296306974, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1811977321}
-  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
 --- !u!1001 &1779782014
 Prefab:
   m_ObjectHideFlags: 0
@@ -3634,11 +3628,6 @@ Prefab:
       propertyPath: staminaText
       value: 
       objectReference: {fileID: 347148678}
-    - target: {fileID: 114000010296306974, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
   m_IsPrefabParent: 0
