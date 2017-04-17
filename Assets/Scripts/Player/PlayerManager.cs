@@ -12,12 +12,20 @@ public class PlayerManager : MonoBehaviour {
 	public Text staminaText;
 	public Vector3 cacheSpeed;
 	public CharacterController playerController;
+//	GameObject playerHUD;
+	GameObject staminaObj,healthObj,hungerObj;
 
 
 
 	void Start(){
+//		playerHUD = GameObject.Find ("PlayerHUD");
 		playerController = GetComponent<CharacterController> ();
+		staminaObj = GameObject.Find ("Stamina");
+		healthObj = GameObject.Find ("Health");
+		hungerObj = GameObject.Find ("Hunger");
+		staminaText = staminaObj.GetComponent<Text> ();
 		staminaText.text = stamina.ToString ();
+
 		cacheSpeed = playerController.velocity;
 	}
 
@@ -59,5 +67,7 @@ public class PlayerManager : MonoBehaviour {
 		staminaText.text = stamina.ToString ("N0");
 		yield return null;
 	}
+
+
 
 }
