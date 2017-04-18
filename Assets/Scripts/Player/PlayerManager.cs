@@ -9,24 +9,29 @@ public class PlayerManager : MonoBehaviour {
 
 	public int health;
 	public float stamina;
-	public Text staminaText;
+	public float hunger;
+	public Text staminaText,healthText,hungerText;
 	public Vector3 cacheSpeed;
 	public CharacterController playerController;
-//	GameObject playerHUD;
 	GameObject staminaObj,healthObj,hungerObj;
 
 
 
 	void Start(){
-//		playerHUD = GameObject.Find ("PlayerHUD");
 		playerController = GetComponent<CharacterController> ();
-		staminaObj = GameObject.Find ("Stamina");
-		healthObj = GameObject.Find ("Health");
-		hungerObj = GameObject.Find ("Hunger");
+		staminaObj = GameObject.Find ("StaminaText");
+		healthObj = GameObject.Find ("HealthText");
+		hungerObj = GameObject.Find ("HungerText");
+
+		hungerText = hungerObj.GetComponent<Text> ();
+		hungerText.text = hunger.ToString (); 
+
 		staminaText = staminaObj.GetComponent<Text> ();
 		staminaText.text = stamina.ToString ();
 
 		cacheSpeed = playerController.velocity;
+		InvokeRepeating("LoseHunger",4.0f,4.0f);
+
 	}
 
 	void Update(){
@@ -67,6 +72,12 @@ public class PlayerManager : MonoBehaviour {
 		staminaText.text = stamina.ToString ("N0");
 		yield return null;
 	}
+
+	void LoseHunger(){
+		hunger -= 1;
+		hungerText.text = hunger.ToString ();
+	}
+
 
 
 
