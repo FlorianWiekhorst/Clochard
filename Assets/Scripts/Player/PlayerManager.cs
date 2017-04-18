@@ -14,10 +14,14 @@ public class PlayerManager : MonoBehaviour {
 	public Vector3 cacheSpeed;
 	public CharacterController playerController;
 	GameObject staminaObj,healthObj,hungerObj;
+	GameObject playerHUD;
+	GameObject gameoverscreen;
 
 
 
 	void Start(){
+		playerHUD = GameObject.Find ("PlayerHUD");
+		gameoverscreen = playerHUD.transform.Find("GameOverScreen").gameObject;
 		playerController = GetComponent<CharacterController> ();
 		staminaObj = GameObject.Find ("StaminaText");
 		healthObj = GameObject.Find ("HealthText");
@@ -38,10 +42,6 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if(health == 0){		//Life
-			GameOver ();
-		}
-
 
 		if (Input.GetButton ("Run") && transform.GetComponent<CharacterController>().velocity.magnitude != 0f) {
 			StopCoroutine (FillStamina());
@@ -58,6 +58,8 @@ public class PlayerManager : MonoBehaviour {
 
 	void GameOver(){
 		Debug.Log ("GameOver");
+		gameoverscreen.SetActive (true);
+		Time.timeScale = 0f;
 	}
 	void ResetStamina(){
 		stamina = 100.0f;
@@ -86,6 +88,9 @@ public class PlayerManager : MonoBehaviour {
 	IEnumerator LoseHealth(){
 		health = Mathf.Clamp (health - 10.0f, 0, 100);
 		healthText.text = health.ToString ();
+		if(health == 0){		//Life
+			GameOver ();
+		}
 		yield return null;
 	}
 
