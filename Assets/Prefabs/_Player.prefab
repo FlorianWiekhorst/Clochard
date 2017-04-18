@@ -2086,7 +2086,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   stamina: 100
+  hunger: 100
   staminaText: {fileID: 0}
+  healthText: {fileID: 0}
+  hungerText: {fileID: 0}
   cacheSpeed: {x: 0, y: 0, z: 0}
   playerController: {fileID: 0}
 --- !u!114 &114928908624169768

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
-	public int health;
+	public float health;
 	public float stamina;
 	public float hunger;
 	public Text staminaText,healthText,hungerText;
@@ -28,6 +28,9 @@ public class PlayerManager : MonoBehaviour {
 
 		staminaText = staminaObj.GetComponent<Text> ();
 		staminaText.text = stamina.ToString ();
+
+		healthText = healthObj.GetComponent<Text> ();
+		healthText.text = health.ToString ();
 
 		cacheSpeed = playerController.velocity;
 		InvokeRepeating("LoseHunger",4.0f,4.0f);
@@ -74,8 +77,16 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void LoseHunger(){
-		hunger -= 1;
+		hunger = Mathf.Clamp(hunger - 100f,0 , 100);
 		hungerText.text = hunger.ToString ();
+		if(hunger == 0){
+			StartCoroutine (LoseHealth());
+		}
+	}
+	IEnumerator LoseHealth(){
+		health = Mathf.Clamp (health - 10.0f, 0, 100);
+		healthText.text = health.ToString ();
+		yield return null;
 	}
 
 

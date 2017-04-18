@@ -446,7 +446,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 223633868159281484, guid: 43d7d2428dd946941a36e909b441cc01,
+    - target: {fileID: 223834984780583542, guid: 43d7d2428dd946941a36e909b441cc01,
         type: 2}
       propertyPath: m_Camera
       value: 
@@ -456,7 +456,7 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 107859970}
-    - target: {fileID: 223834984780583542, guid: 43d7d2428dd946941a36e909b441cc01,
+    - target: {fileID: 223633868159281484, guid: 43d7d2428dd946941a36e909b441cc01,
         type: 2}
       propertyPath: m_Camera
       value: 
@@ -910,16 +910,6 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.y
       value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224046537180217746, guid: 43d7d2428dd946941a36e909b441cc01,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -519
-      objectReference: {fileID: 0}
-    - target: {fileID: 224046537180217746, guid: 43d7d2428dd946941a36e909b441cc01,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 117
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43d7d2428dd946941a36e909b441cc01, type: 2}
@@ -2182,11 +2172,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114928908624169768, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: interactText
-      value: 
-      objectReference: {fileID: 1304492049}
     - target: {fileID: 114969662631458340, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: inventory
@@ -2202,16 +2187,16 @@ Prefab:
       propertyPath: reticle
       value: 
       objectReference: {fileID: 1675946529}
+    - target: {fileID: 114928908624169768, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+        type: 2}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 1304492049}
     - target: {fileID: 114717109405093870, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: staminaText
       value: 
       objectReference: {fileID: 347148678}
-    - target: {fileID: 114717109405093870, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: hunger
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
   m_IsPrefabParent: 0
