@@ -15,12 +15,14 @@ public class Player_Arms : MonoBehaviour {
 			anim.SetTrigger ("Middlefinger");
 		}
 
-		if (Input.GetMouseButtonDown(1)) {			// Hold LeftMouse to Block
+		if (Input.GetMouseButton(1)) {			// Hold LeftMouse to Block
 			anim.SetBool("Block", true);
-			if (Input.GetMouseButtonUp (1)) {			// Hold LeftMouse to Block
-				anim.SetBool ("Block", false);
-			}
 		}
+
+		if (!Input.GetMouseButton(1)) {			// Release it to "no longer block"
+			anim.SetBool ("Block", false);
+		}
+		
 
 		if (Input.GetMouseButton(0)) {			// Push RightMouse to Punch
 			anim.SetTrigger ("Punch");

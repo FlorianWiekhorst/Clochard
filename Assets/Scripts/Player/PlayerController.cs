@@ -39,4 +39,6 @@ public class PlayerController : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move (moveDirection * Time.deltaTime);
 	}
+
+
 }

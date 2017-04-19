@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: 52ea1f4e01637bb4085a31f634793ff4
+timeCreated: 1492591425
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: __index_01_r
+    100002: __index_01_r.001
+    100004: __middle_01_r
+    100006: __middle_01_r.001
+    100008: __pinky_01_r
+    100010: __pinky_01_r.001
+    100012: __ring_01_r
+    100014: __ring_01_r.001
+    100016: __thumb_01_r
+    100018: __thumb_01_r.001
+    100020: Arm_Bones
+    100022: Camera
+    100024: hand_r
+    100026: hand_r.001
+    100028: index_01_r
+    100030: index_01_r.001
+    100032: index_02_r
+    100034: index_02_r.001
+    100036: index_03_r
+    100038: index_03_r.001
+    100040: index_03_r.001_end
+    100042: index_03_r_end
+    100044: lowerarm_r
+    100046: lowerarm_r.001
+    100048: middle_01_r
+    100050: middle_01_r.001
+    100052: middle_02_r
+    100054: middle_02_r.001
+    100056: middle_03_r
+    100058: middle_03_r.001
+    100060: middle_03_r.001_end
+    100062: middle_03_r_end
+    100064: pinky_01_r
+    100066: pinky_01_r.001
+    100068: pinky_02_r
+    100070: pinky_02_r.001
+    100072: pinky_03_r
+    100074: pinky_03_r.001
+    100076: pinky_03_r.001_end
+    100078: pinky_03_r_end
+    100080: Player_Arms
+    100082: //RootNode
+    100084: ring_01_r
+    100086: ring_01_r.001
+    100088: ring_02_r
+    100090: ring_02_r.001
+    100092: ring_03_r
+    100094: ring_03_r.001
+    100096: ring_03_r.001_end
+    100098: ring_03_r_end
+    100100: thumb_01_r
+    100102: thumb_01_r.001
+    100104: thumb_02_r
+    100106: thumb_02_r.001
+    100108: thumb_03_r
+    100110: thumb_03_r.001
+    100112: thumb_03_r.001_end
+    100114: thumb_03_r_end
+    100116: upperarm_r
+    100118: upperarm_r.001
+    400000: __index_01_r
+    400002: __index_01_r.001
+    400004: __middle_01_r
+    400006: __middle_01_r.001
+    400008: __pinky_01_r
+    400010: __pinky_01_r.001
+    400012: __ring_01_r
+    400014: __ring_01_r.001
+    400016: __thumb_01_r
+    400018: __thumb_01_r.001
+    400020: Arm_Bones
+    400022: Camera
+    400024: hand_r
+    400026: hand_r.001
+    400028: index_01_r
+    400030: index_01_r.001
+    400032: index_02_r
+    400034: index_02_r.001
+    400036: index_03_r
+    400038: index_03_r.001
+    400040: index_03_r.001_end
+    400042: index_03_r_end
+    400044: lowerarm_r
+    400046: lowerarm_r.001
+    400048: middle_01_r
+    400050: middle_01_r.001
+    400052: middle_02_r
+    400054: middle_02_r.001
+    400056: middle_03_r
+    400058: middle_03_r.001
+    400060: middle_03_r.001_end
+    400062: middle_03_r_end
+    400064: pinky_01_r
+    400066: pinky_01_r.001
+    400068: pinky_02_r
+    400070: pinky_02_r.001
+    400072: pinky_03_r
+    400074: pinky_03_r.001
+    400076: pinky_03_r.001_end
+    400078: pinky_03_r_end
+    400080: Player_Arms
+    400082: //RootNode
+    400084: ring_01_r
+    400086: ring_01_r.001
+    400088: ring_02_r
+    400090: ring_02_r.001
+    400092: ring_03_r
+    400094: ring_03_r.001
+    400096: ring_03_r.001_end
+    400098: ring_03_r_end
+    400100: thumb_01_r
+    400102: thumb_01_r.001
+    400104: thumb_02_r
+    400106: thumb_02_r.001
+    400108: thumb_03_r
+    400110: thumb_03_r.001
+    400112: thumb_03_r.001_end
+    400114: thumb_03_r_end
+    400116: upperarm_r
+    400118: upperarm_r.001
+    4300000: Player_Arms
+    7400000: middlefinger
+    7400002: Arm_Bones|CameraAction
+    7400004: Arm_Bones|Player_ArmsAction
+    7400006: Arm_Bones|PoseLib.001
+    7400008: pickup
+    7400010: block
+    7400012: punch
+    7400014: idle
+    7400016: Arm_Bones|Arm_BonesAction (5)
+    9500000: //RootNode
+    13700000: Player_Arms
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: middlefinger
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pickup
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 649
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: punch
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 800
+      lastFrame: 830
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 1000
+      lastFrame: 1100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Bones|Arm_BonesAction (5)
+      takeName: Arm_Bones|Arm_BonesAction
+      firstFrame: 0
+      lastFrame: 2172
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Bones
+        weight: 1
+      - path: Arm_Bones/upperarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__index_01_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__middle_01_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__pinky_01_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__ring_01_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Arm_Bones/upperarm_r/lowerarm_r/hand_r/__thumb_01_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__index_01_r.001/index_01_r.001/index_02_r.001/index_03_r.001/index_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__middle_01_r.001/middle_01_r.001/middle_02_r.001/middle_03_r.001/middle_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__pinky_01_r.001/pinky_01_r.001/pinky_02_r.001/pinky_03_r.001/pinky_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__ring_01_r.001/ring_01_r.001/ring_02_r.001/ring_03_r.001/ring_03_r.001_end
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001
+        weight: 1
+      - path: Arm_Bones/upperarm_r.001/lowerarm_r.001/hand_r.001/__thumb_01_r.001/thumb_01_r.001/thumb_02_r.001/thumb_03_r.001/thumb_03_r.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Player_Arms
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,6 +12,7 @@ TagManager:
   - Destroyer
   - Fire
   - Slot
+  - Water
   layers:
   - Default
   - TransparentFX

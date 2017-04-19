@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3b22a47f955a2ec4f951bf521f6b2e83
-timeCreated: 1490026210
+guid: ab668a17b3e497140b8c35ad786af9e0
+timeCreated: 1492588494
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: House3
   materials:
     importMaterials: 1
     materialName: 0
@@ -20,6 +20,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -34,7 +36,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.8
+    globalScale: 1.3
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -50,10 +52,10 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 2
-    tangentImportMode: 2
-  importAnimation: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
