@@ -7,22 +7,25 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
+	//Player Stats 
 	public float health;
 	public float stamina;
 	public float hunger;
-	public Text staminaText,healthText,hungerText;
+	public int money;
+
+	//UI
+	public Text staminaText,healthText,hungerText,moneyText;
 	public Vector3 cacheSpeed;
-	public CharacterController playerController;
-	GameObject staminaObj,healthObj,hungerObj;
+	GameObject staminaObj,healthObj,hungerObj,moneyObj;
 	GameObject playerHUD;
 	GameObject gameoverscreen;
-
+	PlayerController player_controller;
 
 
 	void Start(){
+		player_controller = GetComponent<PlayerController> ();
 		playerHUD = GameObject.Find ("PlayerHUD");
 		gameoverscreen = playerHUD.transform.Find("GameOverScreen").gameObject;
-		playerController = GetComponent<CharacterController> ();
 		staminaObj = GameObject.Find ("StaminaText");
 		healthObj = GameObject.Find ("HealthText");
 		hungerObj = GameObject.Find ("HungerText");
@@ -36,7 +39,6 @@ public class PlayerManager : MonoBehaviour {
 		healthText = healthObj.GetComponent<Text> ();
 		healthText.text = health.ToString ();
 
-		cacheSpeed = playerController.velocity;
 		InvokeRepeating("LoseHunger",4.0f,4.0f);
 
 	}
@@ -47,8 +49,9 @@ public class PlayerManager : MonoBehaviour {
 			StopCoroutine (FillStamina());
 			StartCoroutine (LoseStamina());
 			if (stamina == 0.0f) {
-				playerController.enabled = false;
-				Invoke ("ResetStamina", 3.0f);
+				player_controller.runSpeed = 6.0f;
+			} else {
+				player_controller.runSpeed = 11.0f;
 			}
 		} else {
 			StopCoroutine (LoseStamina());
@@ -62,9 +65,7 @@ public class PlayerManager : MonoBehaviour {
 		Time.timeScale = 0f;
 	}
 	void ResetStamina(){
-		stamina = 100.0f;
-		staminaText.text = stamina.ToString("N0");
-		playerController.enabled = true;
+		StartCoroutine(FillStamina());
 	}
 
 	IEnumerator FillStamina(){
