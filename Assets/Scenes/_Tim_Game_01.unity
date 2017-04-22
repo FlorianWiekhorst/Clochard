@@ -2257,11 +2257,6 @@ Prefab:
       propertyPath: staminaText
       value: 
       objectReference: {fileID: 347148678}
-    - target: {fileID: 114264535422315904, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
   m_IsPrefabParent: 0
