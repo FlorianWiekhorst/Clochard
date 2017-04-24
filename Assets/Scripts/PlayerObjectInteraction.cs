@@ -11,6 +11,7 @@ public class PlayerObjectInteraction : MonoBehaviour {
 	public GameObject interactText;
 	public float distanceToSee;
 	public Inventory inventory;
+	public Pfand pfand;
 
 
 
@@ -49,7 +50,14 @@ public class PlayerObjectInteraction : MonoBehaviour {
 				hit.transform.gameObject.SendMessage ("Teleport");
 				interactText.SetActive (false);
 			}
-		} 
+		}
+		else if(hit.transform.CompareTag("Pfandautomat")){
+			interactText.SetActive (true);
+			pfand = hit.transform.gameObject.GetComponent<Pfand> ();
+			if (Input.GetKeyDown ("e")) {
+				pfand.SendMessage ("PfandAbgeben");
+			}
+		}
 		else {
 			interactText.SetActive (false);
 			isItem = false;

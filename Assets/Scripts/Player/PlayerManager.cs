@@ -20,15 +20,18 @@ public class PlayerManager : MonoBehaviour {
 	GameObject playerHUD;
 	GameObject gameoverscreen;
 	PlayerController player_controller;
-
+	public AudioClip moneyClip;
+	AudioSource audiosource;
 
 	void Start(){
+		audiosource = GetComponent<AudioSource> ();
 		player_controller = GetComponent<PlayerController> ();
 		playerHUD = GameObject.Find ("PlayerHUD");
 		gameoverscreen = playerHUD.transform.Find("GameOverScreen").gameObject;
 		staminaObj = GameObject.Find ("StaminaText");
 		healthObj = GameObject.Find ("HealthText");
 		hungerObj = GameObject.Find ("HungerText");
+		moneyObj = GameObject.Find ("MoneyText");
 
 		hungerText = hungerObj.GetComponent<Text> ();
 		hungerText.text = hunger.ToString (); 
@@ -38,6 +41,9 @@ public class PlayerManager : MonoBehaviour {
 
 		healthText = healthObj.GetComponent<Text> ();
 		healthText.text = health.ToString ();
+
+		moneyText = moneyObj.GetComponent<Text> ();
+		moneyText.text = money.ToString ();
 
 		InvokeRepeating("LoseHunger",4.0f,4.0f);
 
@@ -93,6 +99,12 @@ public class PlayerManager : MonoBehaviour {
 			GameOver ();
 		}
 		yield return null;
+	}
+
+	public void AddMoney(int amount){
+		money += amount;
+		moneyText.text = money.ToString ();
+		audiosource.PlayOneShot (moneyClip);
 	}
 
 
