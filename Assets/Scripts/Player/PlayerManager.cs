@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour {
 		audiosource = GetComponent<AudioSource> ();
 		player_controller = GetComponent<PlayerController> ();
 		playerHUD = GameObject.Find ("PlayerHUD");
-		gameoverscreen = playerHUD.transform.Find("GameOverScreen").gameObject;
+//		gameoverscreen = playerHUD.transform.Find("GameOverScreen").gameObject;
 		staminaObj = GameObject.Find ("StaminaText");
 		healthObj = GameObject.Find ("HealthText");
 		hungerObj = GameObject.Find ("HungerText");
@@ -77,7 +77,7 @@ public class PlayerManager : MonoBehaviour {
 	IEnumerator FillStamina(){
 		yield return new WaitForSeconds (1);
 		stamina = Mathf.Clamp (stamina + (Time.deltaTime * 10), 0, 100);
-		staminaText.text = stamina.ToString ("N0");
+	//	staminaText.text = stamina.ToString ("N0");
 	}
 	IEnumerator LoseStamina(){
 		stamina = Mathf.Clamp (stamina - (Time.deltaTime * 10), 0, 100);
