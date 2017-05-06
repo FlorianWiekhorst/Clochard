@@ -2324,6 +2324,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114928908624169768, guid: 868163eacc02e7f4b93e640d16bdcbc6,
+        type: 2}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 1304492049}
     - target: {fileID: 114969662631458340, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: inventory
@@ -2339,31 +2344,11 @@ Prefab:
       propertyPath: reticle
       value: 
       objectReference: {fileID: 1675946529}
-    - target: {fileID: 114928908624169768, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: interactText
-      value: 
-      objectReference: {fileID: 1304492049}
     - target: {fileID: 114717109405093870, guid: 868163eacc02e7f4b93e640d16bdcbc6,
         type: 2}
       propertyPath: staminaText
       value: 
       objectReference: {fileID: 347148678}
-    - target: {fileID: 54000010399429586, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010399429586, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114717109405093870, guid: 868163eacc02e7f4b93e640d16bdcbc6,
-        type: 2}
-      propertyPath: moneyClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1a9eef1480919f640b82aaaf56264a5f, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868163eacc02e7f4b93e640d16bdcbc6, type: 2}
   m_IsPrefabParent: 0

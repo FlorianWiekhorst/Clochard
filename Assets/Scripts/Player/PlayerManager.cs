@@ -77,7 +77,7 @@ public class PlayerManager : MonoBehaviour {
 	IEnumerator FillStamina(){
 		yield return new WaitForSeconds (1);
 		stamina = Mathf.Clamp (stamina + (Time.deltaTime * 10), 0, 100);
-	//	staminaText.text = stamina.ToString ("N0");
+		staminaText.text = stamina.ToString ("N0");
 	}
 	IEnumerator LoseStamina(){
 		stamina = Mathf.Clamp (stamina - (Time.deltaTime * 10), 0, 100);
@@ -86,7 +86,7 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void LoseHunger(){
-		hunger = Mathf.Clamp(hunger - 100f,0 , 100);
+		hunger = Mathf.Clamp(hunger - 2f,0 , 100);
 		hungerText.text = hunger.ToString ();
 		if(hunger == 0){
 			StartCoroutine (LoseHealth());
