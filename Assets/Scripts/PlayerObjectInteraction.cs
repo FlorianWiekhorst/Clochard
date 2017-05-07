@@ -12,6 +12,7 @@ public class PlayerObjectInteraction : MonoBehaviour {
 	public float distanceToSee;
 	public Inventory inventory;
 	public Pfand pfand;
+	public Catapult catapult;
 
 
 
@@ -56,6 +57,13 @@ public class PlayerObjectInteraction : MonoBehaviour {
 			pfand = hit.transform.gameObject.GetComponent<Pfand> ();
 			if (Input.GetKeyDown ("e")) {
 				pfand.SendMessage ("PfandAbgeben");
+			}
+		}
+		else if(hit.transform.CompareTag("mini_tanker")){
+			interactText.SetActive (true);
+			catapult = hit.transform.gameObject.GetComponent<Catapult> ();
+			if(Input.GetKeyDown("e")){
+				catapult.SendMessage ("CatapultPlayer");
 			}
 		}
 		else {
