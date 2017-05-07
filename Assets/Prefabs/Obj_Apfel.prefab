@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114877832986228182}
   m_Layer: 0
   m_Name: Obj_Apfel
-  m_TagString: Item
+  m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,6 +74,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33471288458350410
 MeshFilter:
