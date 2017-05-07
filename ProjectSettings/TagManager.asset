@@ -4,27 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - NPC
-  - Item
-  - startbtn
-  - quitbtn
-  - Door
-  - Destroyer
-  - Fire
-  - Slot
-  - Water
-  - Pfandautomat
-<<<<<<< HEAD
+  - Apple
+  - Cornflakes
+  - ColaCan
   - Woman
   - Washy
-  - Bottle
-  - ColaCan
-  - Cornflakes
-  - Apple
   - Watermelon
-=======
-  - mini_tanker
->>>>>>> origin/master
+  - Bottle
   layers:
   - Default
   - TransparentFX
@@ -61,13 +47,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Reticle
-    uniqueID: 1771654595
-    locked: 0
-  - name: Menu
-    uniqueID: 4292741375
-    locked: 0
-  - name: Foreground
-    uniqueID: 1255828607
     locked: 0
