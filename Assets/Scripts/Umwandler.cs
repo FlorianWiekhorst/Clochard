@@ -9,9 +9,10 @@ public class Umwandler : MonoBehaviour {
 
     public GameObject[] MyPrefabs;
     public AudioClip[] MySounds;
+    public ParticleSystem tempCollisionParticle;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -25,6 +26,10 @@ public class Umwandler : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
 
+            tempCollisionParticle = Instantiate(tempCollisionParticle, transform.position, Quaternion.identity);
+            tempCollisionParticle.Play();
+            
+            
             int randomSoundIndex = Random.Range(0, MySounds.Length);
             AudioSource.PlayClipAtPoint(MySounds[randomSoundIndex], transform.position);
   

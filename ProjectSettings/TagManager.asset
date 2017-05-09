@@ -11,6 +11,7 @@ TagManager:
   - Washy
   - Watermelon
   - Bottle
+  - ParticleSystem
   layers:
   - Default
   - TransparentFX
