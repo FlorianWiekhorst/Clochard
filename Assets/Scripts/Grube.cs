@@ -45,6 +45,12 @@ public class Grube : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Washy")) {
 			Destroy(other.gameObject);
 			playAudio(2);
+
+			for (int j = 0; j < 2000; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [6], randomSpawn, Quaternion.identity);
+			}
 		}
 
 
@@ -52,6 +58,13 @@ public class Grube : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Woman")) {
 			Destroy(other.gameObject);
 			playAudio(1);
+
+			for (int j = 0; j < 5; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [1], randomSpawn, Quaternion.identity);
+				Instantiate (spawnObj_prefabs [5], randomSpawn, Quaternion.identity);
+			}
 		}
 
 
@@ -59,6 +72,13 @@ public class Grube : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Cornflakes")) {
 			Destroy(other.gameObject);
 			playAudio(0);
+
+			for (int j = 0; j < 23; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [0], randomSpawn, Quaternion.identity);
+				Instantiate (spawnObj_prefabs [4], randomSpawn, Quaternion.identity);
+			}
 		}
 
 
@@ -66,6 +86,13 @@ public class Grube : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Bottle")) {
 			Destroy(other.gameObject);
 			playAudio(1);
+
+			for (int j = 0; j < 6; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [1], randomSpawn, Quaternion.identity);
+				Instantiate (spawnObj_prefabs [3], randomSpawn, Quaternion.identity);
+			}
 		}
 
 
@@ -74,6 +101,13 @@ public class Grube : MonoBehaviour {
 			Destroy(other.gameObject);
 			playAudio(2);
 
+			for (int j = 0; j < 9; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [2], randomSpawn, Quaternion.identity);
+				Instantiate (spawnObj_prefabs [5], randomSpawn, Quaternion.identity);
+			}
+
 
 		}
 
@@ -81,6 +115,13 @@ public class Grube : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Watermelon")) {
 			Destroy(other.gameObject);
 			playAudio(1);
+
+			for (int j = 0; j < 8; j++) {
+				//Erschafft zufälligen SpawnPunkt am Himmel über der Insel
+				Vector3 randomSpawn = new Vector3 (Random.Range (-350, -80), Random.Range (220, 510), Random.Range (-150, 50));
+				Instantiate (spawnObj_prefabs [0], randomSpawn, Quaternion.identity);
+				Instantiate (spawnObj_prefabs [2], randomSpawn, Quaternion.identity);
+			}
 		}
 	}
 }
