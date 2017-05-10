@@ -14,5 +14,35 @@ public class Destroyer : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Item")) {
 			Destroy(other.gameObject);
 		}
+			
+		if (other.gameObject.CompareTag ("Apple")) {
+			Destroy(other.gameObject);
+		}
+			
+		if (other.gameObject.CompareTag ("Washy")) {
+			Destroy(other.gameObject);
+		}
+			
+		if (other.gameObject.CompareTag ("Woman")) {
+			Destroy(other.gameObject);
+		}
+
+		if (other.gameObject.CompareTag ("Cornflakes")) {
+			Destroy(other.gameObject);
+		}
+
+		if (other.gameObject.CompareTag ("Bottle")) {
+			Destroy(other.gameObject);
+		}
+			
+		if (other.gameObject.CompareTag ("ColaCan")) {
+			Destroy(other.gameObject);
+		}
+			
+		if (other.gameObject.CompareTag ("Watermelon")) {
+			Destroy(other.gameObject);
+		}
+
+
 	}
 }
