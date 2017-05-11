@@ -16872,7 +16872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isItem: 0
-  interactText: {fileID: 94442224}
+  interactText: {fileID: 829085584}
   distanceToSee: 3
   inventory: {fileID: 114000012818137840, guid: 96ed37184b442df4b929f598a7a45465,
     type: 2}

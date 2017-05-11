@@ -11,17 +11,7 @@ public class Umwandler : MonoBehaviour {
     public AudioClip[] MySounds;
     public ParticleSystem tempCollisionParticle;
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    void OnCollisionEnter(Collision other)
+  	void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Player")
         {
