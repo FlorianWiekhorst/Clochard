@@ -7,14 +7,17 @@ using UnityEngine.EventSystems;
 public class SaveButton : MonoBehaviour {
 
 	private Button saveButton;
+	public GameObject player;
+	public GameObject prefab;
 
 	void Start () {
+		player = GameObject.Find ("_Player");
 		saveButton = GetComponent<Button>();
 		saveButton.onClick.AddListener (SaveGame);
 	}
 
 	void SaveGame(){
-		SaveManager.Save ();
+		Instantiate (prefab,player.transform.position+(player.transform.forward*2),Quaternion.identity);
 	}
 
 }

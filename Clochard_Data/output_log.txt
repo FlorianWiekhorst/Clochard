@@ -1,0 +1,1548 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     1993 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\Unity\Clochard\Clochard_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\Unity\Clochard\Clochard_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.154633 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3614 -> priority: 1 
+  Thread -> id: 3d8 -> priority: 1 
+  Thread -> id: 1ff4 -> priority: 1 
+  Thread -> id: 3608 -> priority: 1 
+Works.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The class named 'SaveFile' is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename:  Line: 1514)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.418663 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 1.873908 ms (FindLiveObjects: 0.124967 ms CreateObjectMapping: 0.042561 ms MarkObjects: 0.580766 ms  DeleteObjects: 1.124405 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at VideoPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Scene '_Tim_Game_01' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 137)
+
+Scene '_Tim_Game_01' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 137)
+
+Scene '_Tim_Game_01' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 137)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Scene '_Tim_Game_01' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 137)
+
+Scene '_Tim_Game_01' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 137)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+You Hit Me
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Pfandautomat is not defined.
+  at (wrapper managed-to-native) UnityEngine.Component:CompareTag (string)
+  at PlayerObjectInteraction.itemInteraction () [0x00000] in <filename unknown>:0 
+  at PlayerObjectInteraction.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.739324 ms
+
+Unloading 275 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 7.685502 ms (FindLiveObjects: 0.035618 ms CreateObjectMapping: 0.033203 ms MarkObjects: 0.217334 ms  DeleteObjects: 7.398740 ms)
+

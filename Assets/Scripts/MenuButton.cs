@@ -4,17 +4,26 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuButton : MonoBehaviour {
-	public Button startButton, quitButton;
+	public Button startButton, quitButton,settingsButton;
+	public GameObject kran;
 
 	void Start(){
 		startButton.onClick.AddListener (StartTask);
 		quitButton.onClick.AddListener (QuitTask);
+		settingsButton.onClick.AddListener (SettingsTask);
+		Time.timeScale = 1.0f;
 	}
 
 	void StartTask()
 	{
-		SceneManager.LoadScene ("_Flo_Game_01");
+		SceneManager.LoadScene ("Scene_01");
 	}
+
+	void SettingsTask(){
+		Debug.Log ("Works.");
+		kran.GetComponent<Rigidbody> ().AddForce(kran.transform.forward * 500f,ForceMode.Impulse);
+	}
+
 	void QuitTask(){
 		Application.Quit();
 	}

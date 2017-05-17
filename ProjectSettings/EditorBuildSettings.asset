@@ -7,7 +7,13 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
+    guid: c3537fbe7493ec046a20e530054a024b
+  - enabled: 1
+    path: Assets/Scenes/Scene_01.unity
+    guid: 9459934cde6a0214c848471be4dbdceb
   - enabled: 1
     path: Assets/Scenes/_Flo_Game_01.unity
-  - enabled: 1
+    guid: 04b13cb9c96cbbf41b5c5edfc549e20a
+  - enabled: 0
     path: Assets/Scenes/_Tim_Game_01.unity
+    guid: de5b28b1946137f4694894bee58351c0

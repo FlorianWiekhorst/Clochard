@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoadButton : MonoBehaviour {
 
@@ -15,10 +16,6 @@ public class LoadButton : MonoBehaviour {
 	}
 
 	void LoadGame(){
-		SaveManager.Load ();
-//		pos = SaveFile.current.pos;
-//		for(int i = 0;i < pos.sceneObjects.Length;i++){
-//			pos.sceneObjects [i].transform.position = pos.positions[i];
-//		}
+		SceneManager.LoadScene ("MainMenu");
 	}
 }
